@@ -443,6 +443,31 @@ const config = defineStaticConfig({
             required: true,
           },
           {
+            type: "string",
+            name: "time",
+            label: "Dates",
+          },
+          {
+            type: "string",
+            name: "role",
+            label: "Role",
+          },
+          {
+            type: "number",
+            name: "priority",
+            label: "Priority",
+          },
+          {
+            type: "number",
+            name: "position",
+            label: "Position",
+          },
+          {
+            type: "image",
+            name: "logo",
+            label: "Logo",
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
