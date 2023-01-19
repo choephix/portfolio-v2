@@ -1,11 +1,11 @@
 {
   "header": {
     "icon": {
-      "name": "Tina",
-      "color": "orange",
-      "style": "float"
+      "name": "BiWorld",
+      "color": "white",
+      "style": "circle"
     },
-    "name": "Tina Starter",
+    "name": "Stefan Ginev",
     "color": "default",
     "nav": [
       {
@@ -13,12 +13,12 @@
         "label": "Home"
       },
       {
-        "href": "about",
-        "label": "About"
-      },
-      {
         "href": "posts",
         "label": "Blog"
+      },
+      {
+        "href": "about",
+        "label": "About"
       }
     ]
   },
