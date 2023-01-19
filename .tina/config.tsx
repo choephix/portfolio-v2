@@ -158,6 +158,7 @@ const config = defineStaticConfig({
             type: "object",
             label: "Header",
             name: "header",
+            // @ts-ignore
             fields: [
               iconSchema,
               {
@@ -326,6 +327,7 @@ const config = defineStaticConfig({
         label: "Pages",
         name: "page",
         path: "content/pages",
+        format: "md",
         ui: {
           router: ({ document }) => {
             if (document._sys.filename === "home") {

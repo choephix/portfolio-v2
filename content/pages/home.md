@@ -1,7 +1,8 @@
 ---
-title: "Tina Cloud Starter"
+title: Portfolio v2
 blocks:
-  - headline: Welcome to the Tina Starter
+  - tagline: "\U0001F6E0 Software Engineer"
+    headline: Game/Web Development
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
@@ -18,33 +19,34 @@ blocks:
         icon: false
         link: /posts
     image:
-      src: /uploads/unsplash-75EFpyXu3Wg.jpg
-      alt: Photo of palm trees at sunset by Adam Birkett - unsplash.com/photos/75EFpyXu3Wg
+      src: /uploads/60178860.jpg
+      alt: Quirky developer photo
     color: default
     _template: hero
   - items:
       - icon:
-          color: red
-          style: float
-          name: BiCodeBlock
-        title: Amazing Feature
-        text: >-
-          Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
-          Praesent ac faucibus risus, eu lacinia enim.
-      - icon:
-          color: primary
-          style: float
-          name: BiLike
-        title: This Is a Feature
-        text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
-      - icon:
+          name: BiPalette
           color: green
           style: float
-          name: BiPalette
         title: Configurable Theme
         text: >-
           Edit global theme configuration with Tina. Change your theme's primary
           color, font, or icon set.
+      - icon:
+          name: BiLike
+          color: primary
+          style: float
+        title: This Is a Feature
+        text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
+      - icon:
+          name: BiCodeBlock
+          color: red
+          style: float
+        title: Amazing Feature
+        text: >-
+          Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
+          Praesent ac faucibus risus, eu lacinia enim.
     color: tint
     _template: features
 ---
+

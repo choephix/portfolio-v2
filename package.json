@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tinacms dev --watchFolders='components/util/icon.tsx' -c \"next dev\"",
+    "dev": "tinacms dev --watchFolders='components/util/icon.tsx' -c \"next dev -p 3200\"",
     "build": "tinacms build && next build",
-    "start": "tinacms build && next start",
+    "start": "tinacms build && next start -p 3200",
     "export": "npm run build && next export",
     "lint": "eslint . --ext .ts,.tsx"
   },
