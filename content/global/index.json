@@ -25,9 +25,10 @@
   "footer": {
     "color": "default",
     "social": {
-      "facebook": "/",
-      "twitter": "/",
-      "instagram": "/"
+      "facebook": "https://facebook.com/choephix",
+      "twitter": "https://twitter.com/choephix",
+      "instagram": "https://instagram.com/choephix",
+      "github": "https://github.com/choephix"
     }
   },
   "theme": {

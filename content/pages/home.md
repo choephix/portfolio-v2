@@ -48,5 +48,12 @@ blocks:
           Praesent ac faucibus risus, eu lacinia enim.
     color: tint
     _template: features
+  - quote: >-
+      A good programmer is someone who always looks both ways before crossing a
+      one-way street.
+    author: A good programmer
+    color: tint
+    _template: testimonial
 ---
+
 
