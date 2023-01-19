@@ -371,6 +371,7 @@ const config = defineStaticConfig({
         name: "project",
         label: "Projects",
         path: "content/projects",
+        format: "md",
         fields: [
           {
             type: "string",
@@ -432,6 +433,7 @@ const config = defineStaticConfig({
         name: "experience",
         label: "Experence",
         path: "content/experience",
+        format: "md",
         fields: [
           {
             type: "string",
