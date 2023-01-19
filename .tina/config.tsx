@@ -7,12 +7,16 @@ import { ColorPickerInput } from "../components/fields/color";
 import { iconSchema } from "../components/util/icon";
 
 const config = defineStaticConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override
     process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF! || // Vercel branch env
     process.env.HEAD!, // Netlify branch env
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
   token: process.env.TINA_TOKEN!,
+  build: {
+    publicFolder: "public", // The public asset folder for your framework
+    outputFolder: "admin", // within the public folder
+  },
   media: {
     // If you wanted cloudinary do this
     // loadCustomStore: async () => {
@@ -21,13 +25,9 @@ const config = defineStaticConfig({
     // },
     // this is the config for the tina cloud media store
     tina: {
-      publicFolder: "public",
       mediaRoot: "uploads",
+      publicFolder: "public",
     },
-  },
-  build: {
-    publicFolder: "public", // The public asset folder for your framework
-    outputFolder: "admin", // within the public folder
   },
   schema: {
     collections: [
@@ -366,6 +366,91 @@ const config = defineStaticConfig({
             ],
           },
         ],
+      },
+      {
+        name: "project",
+        label: "Projects",
+        path: "src/content/projects",
+        fields: [
+          {
+            type: "string",
+            name: "abstract",
+            label: "Abstract Name",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "string",
+            name: "name",
+            label: "Project Name",
+          },
+          {
+            type: "string",
+            name: "short",
+            label: "Short Description",
+          },
+          {
+            type: "string",
+            name: "skills",
+            label: "Skills",
+          },
+          {
+            type: "string",
+            name: "date",
+            label: "Rough Date",
+          },
+          {
+            type: "string",
+            name: "background",
+            label: "Skills",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "thumbs",
+            label: "Skills",
+            list: true,
+          },
+          {
+            type: "boolean",
+            name: "feature",
+            label: "Feature on Home Page",
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+        ui: {
+          // This is an DEMO router. You can remove this to fit your site
+          // router: ({ document }) => `/demo/blog/${document._sys.filename}`,
+        },
+      },
+      {
+        name: "experience",
+        label: "Experence",
+        path: "src/content/experience",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+        ui: {
+          // This is an DEMO router. You can remove this to fit your site
+          // router: ({ document }) => `/demo/blog/${document._sys.filename}`,
+        },
       },
     ],
   },
