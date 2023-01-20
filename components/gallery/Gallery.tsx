@@ -86,15 +86,13 @@ export const Gallery = (props: GalleryProps) => {
   return (
     <div
       ref={ref}
-      className="gallery"
-      style={{
-        width: "100%",
-        height: "400px",
-        position: "relative",
-        // background: 'skyblue',
-      }}
+      className="gallery w-full relative"
+      style={{ height: "400px" }}
     >
-      <GalleryBackground images={backgroundImages} />
+      <GalleryBackground
+        images={backgroundImages}
+        data-tinafield="backgroundImages"
+      />
 
       {/* <GalleryThumbsSlider
         images={props.thumbImagesExtra}
@@ -108,18 +106,16 @@ export const Gallery = (props: GalleryProps) => {
       /> */}
 
       <GalleryThumbsSlider
+        className="absolute bottom-0 left-0 right-0"
+        data-tinafield="thumbnailImages"
         images={thumbnailImages}
-        style={{
-          position: "absolute",
-          bottom: "0px",
-          left: "0px",
-          right: "0px",
-        }}
       />
 
-      <div style={{ position: "absolute", top: "0px", left: "0%", right: "0" }}>
-        {/* <GalleryTitleDiv>{data.name}</GalleryTitleDiv> */}
-        <GalleryTitleDiv>{data.abstract}</GalleryTitleDiv>
+      <div className="absolute top-0 left-0 right-0">
+        {/* <GalleryTitleDiv data-tinafield="name">{data.name}</GalleryTitleDiv> */}
+        <GalleryTitleDiv data-tinafield="abstract">
+          {data.abstract}
+        </GalleryTitleDiv>
         {data.summary && (
           <GalleryDescrDiv>
             <TinaMarkdown content={data.summary} />

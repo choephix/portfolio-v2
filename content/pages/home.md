@@ -23,8 +23,7 @@ blocks:
       alt: Quirky developer photo
     color: default
     _template: hero
-  - body: |
-      ...
+  - body: ''
     color: tint
     projects:
       - abstract: Slot games SDK for online casino
