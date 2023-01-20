@@ -1,6 +1,6 @@
+import { useWatchReturnValue } from '@utils/useWatchReturnValue';
 import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { useWatchReturnValue } from '@utils/useWatchReturnValue';
 
 export type GalleryBackgroundProps = {
   images: string[];

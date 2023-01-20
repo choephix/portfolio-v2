@@ -489,6 +489,12 @@ const config = defineStaticConfig({
       },
     ],
   },
+  admin: {
+    auth: {
+      onLogin: async (...rest) => void console.log(rest),
+      onLogout: async (...rest) => void console.log(rest),
+    }
+  },
 });
 
 export default config;

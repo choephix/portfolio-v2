@@ -1,8 +1,4 @@
-import { LiveValue } from '@/debug/LiveValue';
-import { duplicateArray } from '@/utils/duplicateArray';
-import { useRequestAnimationFrame } from '@/utils/useRequestAnimationFrame';
-import { useWatchReturnValue } from '@/utils/useWatchReturnValue';
-import { HTMLAttributes, useEffect, useRef, useState } from 'react';
+import { HTMLAttributes, useRef } from 'react';
 import styled from 'styled-components';
 
 const ThumbImg = styled.img`

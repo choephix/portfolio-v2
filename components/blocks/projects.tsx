@@ -4,7 +4,7 @@ import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksProjects } from "../../.tina/__generated__/types";
-import Gallery from "@components/gallery/Gallery";
+import Gallery from "../gallery/Gallery";
 
 type ProjectsGalleryProps = { data: PageBlocksProjects; parentField?: string };
 

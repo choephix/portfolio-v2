@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 module.exports = {
   webpack(config) {
     config.module.rules.push({
@@ -5,7 +6,6 @@ module.exports = {
       issuer: /\.[jt]sx?$/,
       use: ["@svgr/webpack"],
     });
-
     return config;
   },
   async rewrites() {
@@ -20,6 +20,8 @@ module.exports = {
       },
     ];
   },
+  // pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+  // reactStrictMode: true,
   compiler: {
     // Enables the styled-components SWC transform
     styledComponents: true,
