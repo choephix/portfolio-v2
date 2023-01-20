@@ -4,6 +4,7 @@ import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksProjects } from "../../.tina/__generated__/types";
+import Gallery from "components/gallery/Gallery";
 
 type ProjectsGalleryProps = { data: PageBlocksProjects; parentField?: string };
 
@@ -23,13 +24,8 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
 
         {data.projects.map((project, index) => {
           return (
-            <div key={index}>
-              <h2>{project.abstract}</h2>
-              <p>{project.name}</p>
-              <p>{project.short}</p>
-              <p>{project.skills}</p>
-              <p>{project.date}</p>
-            </div>
+            // project.abstract
+            <Gallery data={project}/> 
           );
         })}
       </Container>
@@ -81,9 +77,9 @@ export const projectsBlockSchema: Template = {
           label: "Project Name",
         },
         {
-          type: "string",
-          name: "short",
-          label: "Short Description",
+          type: "rich-text",
+          name: "summary",
+          label: "Short Summary",
         },
         {
           type: "string",
@@ -97,26 +93,15 @@ export const projectsBlockSchema: Template = {
         },
         {
           type: "string",
-          name: "background",
-          label: "Skills",
+          name: "backgroundImages",
+          label: "Background Images",
           list: true,
         },
         {
           type: "string",
-          name: "thumbs",
-          label: "Skills",
+          name: "thumbnailImages",
+          label: "Thumbnail Images",
           list: true,
-        },
-        {
-          type: "boolean",
-          name: "feature",
-          label: "Feature on Home Page",
-        },
-        {
-          type: "rich-text",
-          name: "body",
-          label: "Body",
-          isBody: true,
         },
       ],
     },

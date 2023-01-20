@@ -29,12 +29,12 @@ blocks:
     projects:
       - abstract: Multiplayer Trading Card Game for the Web
         name: DRIMGAR
-        short: ''
+        summary: ''
         skills: >-
           React, API, Firebase, Node.js, Websockets, Github API, Stable
           Diffusion
         date: 09/2019
-        background:
+        backgroundImages:
           - >-
             tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1272092685.webp
           - >-
@@ -47,7 +47,7 @@ blocks:
             tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2856751774.webp
           - >-
             tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_3095471410.webp
-        thumbs:
+        thumbnailImages:
           - independent/ccgw/ccgw-0a.jpg
           - independent/ccgw/ccgw-1.jpg
           - independent/ccgw/ccgw-2.jpg
@@ -55,10 +55,10 @@ blocks:
         body: ''
       - abstract: Flash games for various portals.
         name: Furry Robots Attack! / Scaperide
-        short: null
+        summary: null
         skills: 'Flash IDE, ActionScript 3.0, Vector Graphics, Vector Animation, Design'
         date: 01/2010
-        background:
+        backgroundImages:
           - >-
             strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_1543348911.webp
           - >-
@@ -67,7 +67,7 @@ blocks:
             strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2951022213.webp
           - >-
             strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_3889103449.webp
-        thumbs:
+        thumbnailImages:
           - fra1.mp4
           - fra3.mp4
           - fra6.mp4
@@ -80,7 +80,7 @@ blocks:
         body: ''
       - abstract: Multiplayer billiards game for iOS and Android
         name: Hasht
-        short: >
+        summary: >
           Mobile game for iOS and Android. Play 8-Ball pool with friends and
           strangers. 
 
@@ -97,7 +97,7 @@ blocks:
           Multiplayer, PlayerIO, Push Notifications, In-App Purchases, Facebook
           Login
         date: 07/2016
-        background:
+        backgroundImages:
           - >-
             live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_1348245627.webp
           - >-
@@ -109,7 +109,7 @@ blocks:
           - >-
             billiards_club_inspired_by_gta_cover_art_casual_game
             (1)_2183929294.webp
-        thumbs:
+        thumbnailImages:
           - bigmage/hasht/hasht-1.jpg
           - bigmage/hasht/hasht-2.jpg
           - bigmage/hasht/hasht-3.jpg
@@ -125,12 +125,12 @@ blocks:
         body: ''
       - abstract: Slot games SDK for online casino
         name: 7Mojos v2 Slots / Infinite Wilds
-        short: >-
+        summary: >-
           The first game, as well as project structure, SDK, and tools for the
           asset pipeline of a company's new slot games portfolio.
         skills: 'Node.js, TypeScript, PixiJS, Howler.js, GSAP, Gulp, Electron'
         date: 07/2020
-        background:
+        backgroundImages:
           - >-
             309075810_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
@@ -145,7 +145,7 @@ blocks:
             3319480819_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
             4148135450_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-        thumbs:
+        thumbnailImages:
           - 7mojos/InfiniteWilds.mp4
           - 7mojos/InfiniteWilds2.mp4
           - 7mojos/InfiniteWilds3.webm
@@ -155,10 +155,10 @@ blocks:
         body: ''
       - abstract: Casual Endless Jumper Game for iOS and Android
         name: Jelly Brain
-        short: Casual Endless Jumper Game for iOS and Android
+        summary: Casual Endless Jumper Game for iOS and Android
         skills: 'Adobe AIR, Actionscript 3.0, Mobile Development, Play Store, Video Ads'
         date: 7/2015
-        background:
+        backgroundImages:
           - >-
             forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_2055653219.webp
           - >-
@@ -175,7 +175,7 @@ blocks:
             forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_3818816736.webp
           - >-
             forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_554369460.webp
-        thumbs:
+        thumbnailImages:
           - JellyBrain0.mp4
           - bigmage/jellybrain/2.jpg
           - JellyBrain1.mp4
@@ -186,7 +186,7 @@ blocks:
         body: ''
       - abstract: Casual mobile game for iOS and Android
         name: Jungle Treasure
-        short: >
+        summary: >
           An asynchronous multiplayer game for mobile devices, inspired by Angry
           Birds.
 
@@ -196,7 +196,7 @@ blocks:
           or build their own stages and challenge their friends to beat them.
         skills: 'Adobe AIR, ActionScript 3.0, Starling, Feathers UI, Design'
         date: 05/2013
-        background:
+        backgroundImages:
           - >-
             amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1192809013.webp
           - >-
@@ -225,7 +225,7 @@ blocks:
             amazon_jungle_and_river_inspired_by_warcraft_hearthstone_439762704.webp
           - >-
             amazon_jungle_and_river_inspired_by_warcraft_hearthstone_965793550.webp
-        thumbs:
+        thumbnailImages:
           - '--jts1-hevc.mp4'
           - JungleTreasure1.mp4
           - JungleTreasure2.mp4
@@ -238,7 +238,7 @@ blocks:
         body: ''
       - abstract: Multiplayer brawler game for the Web
         name: Jungle Trouble
-        short: >-
+        summary: >-
           3D arena brawler game for the browser. Players control jungle animals
           in realtime multiplayer, and have to use spinning moves and pick-up
           abilities to push each other off the platform without themselves
@@ -246,7 +246,7 @@ blocks:
           and an art style that is both stunning and hilarious.
         skills: 'ActionScript 3.0, Flash Web, Away 3D, Game Design'
         date: 07/2012
-        background:
+        backgroundImages:
           - >-
             amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_2428572425.webp
           - >-
@@ -257,7 +257,7 @@ blocks:
             amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_4215736958.webp
           - >-
             amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_904056896.webp
-        thumbs:
+        thumbnailImages:
           - bigmage/jungletrouble/jungletrouble2_640.jpg
           - JungleTrouble1.mp4
           - bigmage/jungletrouble/3.jpg
@@ -267,10 +267,10 @@ blocks:
         body: ''
       - abstract: Browser MMO Game about Gangster Life
         name: Mafia Saints / BG Mafia
-        short: null
+        summary: null
         skills: null
         date: 05/2014
-        background:
+        backgroundImages:
           - >-
             white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_318713895.webp
           - >-
@@ -281,7 +281,7 @@ blocks:
             white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_63189152.webp
           - >-
             white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_729119324.webp
-        thumbs:
+        thumbnailImages:
           - StreetMobster1.mp4
           - StreetMobster2.mp4
           - bigmage/bgmafia/1.jpg
@@ -297,14 +297,14 @@ blocks:
         body: ''
       - abstract: Music gallery and player app for vinyls
         name: Music Gallery
-        short: >
+        summary: >
           Music gallery and player app for vinyls, made with Flash IDE and
           Actionscript 3.0
 
           Features mp3 streaming, playlists, async image loading.
         skills: 'ActionScript 3.0, Flash IDE, Design'
         date: 03/2012
-        background:
+        backgroundImages:
           - music_gallery_vinyls_collection_discs_casual_game_2091760183.webp
           - music_gallery_vinyls_collection_discs_casual_game_3947593383.webp
           - music_gallery_vinyls_collection_discs_casual_game_3959715379.webp
@@ -323,7 +323,7 @@ blocks:
             vynil_music_live_shop_people_discs_light_gray_bright_casual_game_654623831.webp
           - >-
             vynil_music_live_shop_people_discs_light_gray_bright_casual_game_997368298.webp
-        thumbs:
+        thumbnailImages:
           - independent/music/1.jpg
           - independent/music/agora.profile.jpg
           - smol/mgal.jpg
@@ -331,12 +331,12 @@ blocks:
         body: ''
       - abstract: MMO Browser games about pirates
         name: Lucid Star / PiratiBG
-        short: >
+        summary: >
           Massively Multiplayer Online Games in the browser about pirates
           fighting in fictional oceans and a subsequent re-skin in space.
         skills: null
         date: 01/2013
-        background:
+        backgroundImages:
           - >-
             arhipelago_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1461231475.webp
           - >-
@@ -345,7 +345,7 @@ blocks:
             arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1308733375.webp
           - >-
             arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_588209326.webp
-        thumbs:
+        thumbnailImages:
           - bigmage/piratesarena/1.jpg
           - bigmage/piratesarena/2.jpg
           - bigmage/piratesarena/3.jpg
@@ -369,14 +369,14 @@ blocks:
         body: ''
       - abstract: 3D visualization tool for online races
         name: SimWin RDS Dashboard
-        short: >-
+        summary: >-
           A dashboard for inspecting scene and telemetry data from popular
           online racing game
         skills: >-
           Typescript, React, MUI, Threejs, Recharts, Sentry, Jira, Node.js, AWS,
           Figma
         date: 09/2022
-        thumbs:
+        thumbnailImages:
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
@@ -384,12 +384,12 @@ blocks:
         body: ''
       - abstract: Local Multiplayer Game with Sumo-wrestlers
         name: Sumo Battle!
-        short: >
+        summary: >
           Local multiplayer game, where players play elimination matches with
           sumo-wrestlers controlled with only one button.
         skills: 'Unity, C#, .NET, 3Ds Max, Photoshop'
         date: 01/2011
-        background:
+        backgroundImages:
           - >-
             orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_112140760.webp
           - >-
@@ -418,14 +418,14 @@ blocks:
             orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_376232026.webp
           - >-
             orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_951573216.webp
-        thumbs:
+        thumbnailImages:
           - independent/sumobattle/sumo0.jpg
           - independent/sumobattle/sumo1.jpg
         feature: true
         body: ''
       - abstract: Strategy browser game with trains on the blockchain
         name: Train of the Century
-        short: >-
+        summary: >-
           Browser game where you can own and trade trains, parts and stations
           represented by NFTs on the WAX blockchain.
         skills: >-
@@ -434,7 +434,7 @@ blocks:
           Firebase, Firebase Authentication, Firebase Hosting, Postman,
           Serverless, D3.js, Ethers.js, Web3.js
         date: 09/2021
-        thumbs:
+        thumbnailImages:
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
@@ -442,10 +442,10 @@ blocks:
         body: ''
       - abstract: Text Role Playing Game Prototype
         name: Text RPG
-        short: Text Role Playing Game Prototype
+        summary: Text Role Playing Game Prototype
         skills: 'Angular, TypeScript, Github API, Firebase'
         date: 06/2019
-        thumbs:
+        thumbnailImages:
           - independent/txtrpg/txtrpg-1.jpg
           - independent/txtrpg/txtrpg-2.jpg
           - independent/txtrpg/txtrpg-3.jpg
@@ -454,7 +454,7 @@ blocks:
         body: ''
       - abstract: Multiplayer party games on the web.
         name: VEN Games
-        short: >
+        summary: >
           A collection of three party games on the web.
 
           Written in React + Typescript, utilizing Firebase Realtime Database
@@ -463,7 +463,7 @@ blocks:
           Lerna, Typescript, React, Firebase, Firebase Firestore, Firebase
           Realtime Database, Firebase Functions, Figma
         date: 07/2020
-        thumbs:
+        thumbnailImages:
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
@@ -471,10 +471,10 @@ blocks:
         body: ''
       - abstract: Wedding Planner Web App
         name: Wedding Planner
-        short: Wedding Planner Web App
+        summary: Wedding Planner Web App
         skills: 'ActionScript 3.0, Flash IDE, Design'
         date: 09/2011
-        background:
+        backgroundImages:
           - >-
             bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1141341689.webp
           - >-
@@ -484,7 +484,7 @@ blocks:
           - >-
             bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_3946500764.webp
           - bright_wedding_groom_bride_party_room_real_photo_858305003.webp
-        thumbs:
+        thumbnailImages:
           - independent/wedding/agora.profile.jpg
           - independent/wedding/agora.profile.png
           - smol/seating.jpg
