@@ -12,7 +12,7 @@ export type GalleryProps = {
 };
 
 const GalleryTitleDiv = styled.h1`
-  font-size: 36px;
+  font-size: 48px;
   font-weight: bolder;
   margin: 0px;
   padding: 0px 24px;
@@ -21,7 +21,7 @@ const GalleryTitleDiv = styled.h1`
   -webkit-text-stroke: 1px black;
 `;
 
-const GalleryDescrDiv = styled(TinaMarkdown)`
+const GalleryDescrDiv = styled.div`
   font-size: 16px;
   font-weight: bolder;
 
@@ -89,7 +89,6 @@ export const Gallery = (props: GalleryProps) => {
         position: "relative",
         // background: 'skyblue',
       }}
-      // title={data.altname}
     >
       <GalleryBackground images={backgroundImages} />
 
@@ -116,7 +115,11 @@ export const Gallery = (props: GalleryProps) => {
 
       <div style={{ position: "absolute", top: "0px", left: "0%", right: "0" }}>
         <GalleryTitleDiv>{data.name}</GalleryTitleDiv>
-        {data.summary && <GalleryDescrDiv content={data.summary} />}
+        {data.summary && (
+          <GalleryDescrDiv>
+            <TinaMarkdown content={data.summary} />
+          </GalleryDescrDiv>
+        )}
       </div>
     </div>
   );
