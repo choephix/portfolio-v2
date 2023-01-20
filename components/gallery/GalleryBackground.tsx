@@ -33,10 +33,10 @@ export const GalleryBackground = (props: GalleryBackgroundProps) => {
   const { images } = props;
 
   const [index, setIndex] = useState(0);
-  useEffect(() => {
-    const intervalId = setInterval(() => setIndex((index + 1) % images.length), 9000);
-    return () => clearInterval(intervalId);
-  }, [images, index]);
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => setIndex((index + 1) % images.length), 9000);
+  //   return () => clearInterval(intervalId);
+  // }, [images, index]);
 
   const ref = useRef<HTMLDivElement>(null);
   const dist = useWatchReturnValue(() => {
@@ -48,7 +48,7 @@ export const GalleryBackground = (props: GalleryBackgroundProps) => {
     const center = rect.top + rect.height / 2;
     const distance = Math.abs(center - window.innerHeight / 2);
     
-    return distance / (window.innerHeight / 2);
+    return (distance / (window.innerHeight / 2)) ** 2;
     // return 1 - (distance / (window.innerHeight / 2));
   });
 
@@ -59,7 +59,7 @@ export const GalleryBackground = (props: GalleryBackgroundProps) => {
   return (
     <GalleryBackgroundDiv style={{ 
       backgroundImage: `url(${backgroundImageUrl})`,
-      filter: `blur(${4 + dist * 24}px)`,
+      filter: `blur(${4 + dist * 32}px)`,
     }} ref={ref}>
       {dist}
     </GalleryBackgroundDiv>

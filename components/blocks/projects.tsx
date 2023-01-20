@@ -18,16 +18,18 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
         }`}
         data-tinafield={`${parentField}.body`}
         size="large"
-        width="medium"
+        width="large"
       >
         <TinaMarkdown content={data.body} />
 
-        {data.projects.map((project, index) => {
-          return (
-            // project.abstract
-            <Gallery data={project}/> 
-          );
-        })}
+        <div id="galleries" style={{ overflowX: "hidden", padding: "64px 0" }}>
+          {data.projects.map((project, index) => {
+            return (
+              // project.abstract
+              <Gallery key={index} data={project} />
+            );
+          })}
+        </div>
       </Container>
     </Section>
   );

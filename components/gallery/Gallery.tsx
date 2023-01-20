@@ -1,11 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import styled from 'styled-components';
-import { GalleryBackground } from './GalleryBackground';
-import { GalleryThumbsSlider } from './GalleryThumbsSlider';
-import { PageBlocksProjects } from '../../.tina/__generated__/types';
+import styled from "styled-components";
+import { GalleryBackground } from "./GalleryBackground";
+import { GalleryThumbsSlider } from "./GalleryThumbsSlider";
+import { PageBlocksProjects } from "../../.tina/__generated__/types";
 
-type ProjectsData = PageBlocksProjects['projects'][number];
+type ProjectsData = PageBlocksProjects["projects"][number];
 
 export type GalleryProps = {
   data: ProjectsData;
@@ -57,8 +57,8 @@ export const Gallery = (props: GalleryProps) => {
   React.useEffect(() => {
     const handleResize = () => setWidth(ref.current?.offsetWidth || 0);
     handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, [!!ref.current]);
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
@@ -72,6 +72,10 @@ export const Gallery = (props: GalleryProps) => {
       `https://picsum.photos/seed/${Math.random()}/500/300`
     );
   }
+
+  const backgroundImages = (data.backgroundImages || []).map(
+    (img) => `backdrops/${img}`
+  );
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
@@ -87,7 +91,7 @@ export const Gallery = (props: GalleryProps) => {
       }}
       // title={data.altname}
     >
-      <GalleryBackground images={data.backgroundImages || []} />
+      <GalleryBackground images={backgroundImages} />
 
       {/* <GalleryThumbsSlider
         images={props.thumbImagesExtra}
