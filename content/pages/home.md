@@ -23,8 +23,7 @@ blocks:
       alt: Quirky developer photo
     color: default
     _template: hero
-  - body: |
-      ...
+  - body: ''
     color: tint
     projects:
       - abstract: Multiplayer Trading Card Game for the Web
@@ -470,6 +469,7 @@ blocks:
     color: tint
     _template: testimonial
 ---
+
 
 
 
