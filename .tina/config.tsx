@@ -367,6 +367,37 @@ const config = defineStaticConfig({
               testimonialBlockSchema,
             ],
           },
+
+          //// TEST //// EXPERIMENTAL ////
+          {
+            label: "Image Gallery",
+            name: "gallery",
+            type: "object",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                // Field values are accessed by title?.<Field name>
+                return {
+                  label: `🖼 ${item?.image}`,
+                  style: {
+                    color: "cyan",
+                    backgroundImage: `url(${item?.image})`,
+                    backgroundSize: `cover`,
+                    backgroundPosition: `center`,
+                    height: "192px",
+                  },
+                };
+              },
+            },
+            fields: [
+              {
+                label: "Image",
+                name: "image",
+                type: "image",
+                required: true,
+              },
+            ],
+          },
         ],
       },
       {
@@ -493,7 +524,7 @@ const config = defineStaticConfig({
     auth: {
       onLogin: async (...rest) => void console.log(rest),
       onLogout: async (...rest) => void console.log(rest),
-    }
+    },
   },
 });
 

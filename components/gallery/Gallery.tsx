@@ -71,8 +71,11 @@ export const Gallery = (props: GalleryProps) => {
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
-  if (data.thumbnailImages.length < 1) {
-    data.thumbnailImages.push(
+  const backgroundImages = data.backgroundImages || [];
+  const thumbnailImages = data.thumbnailImages || [];
+
+  if (thumbnailImages.length < 1) {
+    thumbnailImages.push(
       `https://picsum.photos/seed/${Math.random()}/400/300`,
       `https://picsum.photos/seed/${Math.random()}/200/300`,
       `https://picsum.photos/seed/${Math.random()}/400/300`,
@@ -80,9 +83,6 @@ export const Gallery = (props: GalleryProps) => {
       `https://picsum.photos/seed/${Math.random()}/500/300`
     );
   }
-
-  const backgroundImages = data.backgroundImages || [];
-  const thumbnailImages = data.thumbnailImages || [];
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
