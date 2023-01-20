@@ -118,7 +118,8 @@ export const Gallery = (props: GalleryProps) => {
       />
 
       <div style={{ position: "absolute", top: "0px", left: "0%", right: "0" }}>
-        <GalleryTitleDiv>{data.name}</GalleryTitleDiv>
+        {/* <GalleryTitleDiv>{data.name}</GalleryTitleDiv> */}
+        <GalleryTitleDiv>{data.abstract}</GalleryTitleDiv>
         {data.summary && (
           <GalleryDescrDiv>
             <TinaMarkdown content={data.summary} />

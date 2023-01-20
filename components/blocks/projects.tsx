@@ -22,16 +22,16 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
       >
         <TinaMarkdown content={data.body} />
 
-        {/* <div
+        <div
           id="project-galleries"
           style={{ overflowX: "hidden", padding: "64px 0", width: "100%" }}
-        > */}
+        >
           {data.projects.map((project, index) => {
             return (
               <Gallery key={index} data={project} />
             );
           })}
-        {/* </div> */}
+        </div>
       </Container>
     </Section>
   );

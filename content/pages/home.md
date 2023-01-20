@@ -23,99 +23,10 @@ blocks:
       alt: Quirky developer photo
     color: default
     _template: hero
-  - body: ''
+  - body: |
+      ...
     color: tint
     projects:
-      - abstract: Multiplayer Trading Card Game for the Web
-        name: DRIMGAR
-        summary: ''
-        skills: >-
-          React, API, Firebase, Node.js, Websockets, Github API, Stable
-          Diffusion
-        date: 09/2019
-        backgroundImages:
-          - >-
-            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1272092685.webp
-          - >-
-            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1540855742.webp
-          - >-
-            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2406655520.webp
-          - >-
-            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_244723129.webp
-          - >-
-            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2856751774.webp
-          - >-
-            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_3095471410.webp
-        thumbnailImages:
-          - independent/ccgw/ccgw-0a.jpg
-          - independent/ccgw/ccgw-1.jpg
-          - independent/ccgw/ccgw-2.jpg
-      - abstract: Flash games for various portals.
-        name: Furry Robots Attack! / Scaperide
-        summary: ''
-        skills: 'Flash IDE, ActionScript 3.0, Vector Graphics, Vector Animation, Design'
-        date: 01/2010
-        backgroundImages:
-          - >-
-            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_1543348911.webp
-          - >-
-            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2413862583.webp
-          - >-
-            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2951022213.webp
-          - >-
-            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_3889103449.webp
-        thumbnailImages:
-          - fra1.mp4
-          - fra3.mp4
-          - fra6.mp4
-          - independent/fra/fra200x200p.jpg
-          - fra2b-hevc.mp4
-          - fra7-hevc.mp4
-          - independent/fra/fra200x200bot.jpg
-          - fra5-hevc.mp4
-      - abstract: Multiplayer billiards game for iOS and Android
-        name: Hasht
-        summary: >
-          Mobile game for iOS and Android. Play 8-Ball pool with friends and
-          strangers.
-
-          Features realtime multiplayer, rank based match-making, scheduled
-          tournaments, in-app purchases, push notifications.
-
-          Uses deterministic physics engine for fair gameplay.
-
-          Balls rendered within a 2D environment using custom shader with
-          spherical projection to simulate realistic 3D balls with perfect
-          rotation.
-        skills: >-
-          Flash, Actionscript, Box2D,OpenGL, iOS, Android, Photoshop,
-          Multiplayer, PlayerIO, Push Notifications, In-App Purchases, Facebook
-          Login
-        date: 07/2016
-        backgroundImages:
-          - >-
-            live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_1348245627.webp
-          - >-
-            live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_2865880298.webp
-          - >-
-            night_time_billiards_club_dim_light_digital_fine_art_casual_game_4015559387.webp
-          - >-
-            night_time_billiards_club_dim_light_digital_fine_art_casual_game_581764122.webp
-          - >-
-            billiards_club_inspired_by_gta_cover_art_casual_game
-            (1)_2183929294.webp
-        thumbnailImages:
-          - bigmage/hasht/hasht-1.jpg
-          - bigmage/hasht/hasht-2.jpg
-          - bigmage/hasht/hasht-3.jpg
-          - bigmage/hasht/hasht (1).webp
-          - bigmage/hasht/hasht (2).webp
-          - bigmage/hasht/hasht (3).webp
-          - bigmage/hasht/hasht (4).webp
-          - bigmage/hasht/hasht (5).webp
-          - bigmage/hasht/hasht (6).webp
-          - bigmage/hasht/hasht (7).webp
-          - bigmage/hasht/hasht (8).webp
       - abstract: Slot games SDK for online casino
         name: 7Mojos v2 Slots / Infinite Wilds
         summary: >
@@ -251,6 +162,29 @@ blocks:
           - bigmage/jungletrouble/3.jpg
           - JungleTrouble2.mp4
           - bigmage/jungletrouble/6.jpg
+      - abstract: Flash games for various portals.
+        name: Furry Robots Attack! / Scaperide
+        summary: ''
+        skills: 'Flash IDE, ActionScript 3.0, Vector Graphics, Vector Animation, Design'
+        date: 01/2010
+        backgroundImages:
+          - >-
+            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_1543348911.webp
+          - >-
+            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2413862583.webp
+          - >-
+            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2951022213.webp
+          - >-
+            strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_3889103449.webp
+        thumbnailImages:
+          - fra1.mp4
+          - fra3.mp4
+          - fra6.mp4
+          - independent/fra/fra200x200p.jpg
+          - fra2b-hevc.mp4
+          - fra7-hevc.mp4
+          - independent/fra/fra200x200bot.jpg
+          - fra5-hevc.mp4
       - abstract: Browser MMO Game about Gangster Life
         name: Mafia Saints / BG Mafia
         summary: ''
@@ -279,6 +213,73 @@ blocks:
           - bigmage/bgmafia/7.jpg
           - bigmage/bgmafia/8.jpg
           - bigmage/bgmafia/9.jpg
+      - abstract: Multiplayer Trading Card Game for the Web
+        name: DRIMGAR
+        summary: ''
+        skills: >-
+          React, API, Firebase, Node.js, Websockets, Github API, Stable
+          Diffusion
+        date: 09/2019
+        backgroundImages:
+          - >-
+            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1272092685.webp
+          - >-
+            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1540855742.webp
+          - >-
+            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2406655520.webp
+          - >-
+            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_244723129.webp
+          - >-
+            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2856751774.webp
+          - >-
+            tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_3095471410.webp
+        thumbnailImages:
+          - independent/ccgw/ccgw-0a.jpg
+          - independent/ccgw/ccgw-1.jpg
+          - independent/ccgw/ccgw-2.jpg
+      - abstract: Multiplayer billiards game for iOS and Android
+        name: Hasht
+        summary: >
+          Mobile game for iOS and Android. Play 8-Ball pool with friends and
+          strangers.
+
+          Features realtime multiplayer, rank based match-making, scheduled
+          tournaments, in-app purchases, push notifications.
+
+          Uses deterministic physics engine for fair gameplay.
+
+          Balls rendered within a 2D environment using custom shader with
+          spherical projection to simulate realistic 3D balls with perfect
+          rotation.
+        skills: >-
+          Flash, Actionscript, Box2D,OpenGL, iOS, Android, Photoshop,
+          Multiplayer, PlayerIO, Push Notifications, In-App Purchases, Facebook
+          Login
+        date: 07/2016
+        backgroundImages:
+          - >-
+            live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_1348245627.webp
+          - >-
+            live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_2865880298.webp
+          - >-
+            night_time_billiards_club_dim_light_digital_fine_art_casual_game_4015559387.webp
+          - >-
+            night_time_billiards_club_dim_light_digital_fine_art_casual_game_581764122.webp
+          - >-
+            billiards_club_inspired_by_gta_cover_art_casual_game
+            (1)_2183929294.webp
+        thumbnailImages:
+          - bigmage/hasht/hasht-1.jpg
+          - bigmage/hasht/hasht-2.jpg
+          - bigmage/hasht/hasht-3.jpg
+          - bigmage/hasht/hasht (1).webp
+          - bigmage/hasht/hasht (2).webp
+          - bigmage/hasht/hasht (3).webp
+          - bigmage/hasht/hasht (4).webp
+          - bigmage/hasht/hasht (5).webp
+          - bigmage/hasht/hasht (6).webp
+          - bigmage/hasht/hasht (7).webp
+          - bigmage/hasht/hasht (8).webp
       - abstract: Music gallery and player app for vinyls
         name: Music Gallery
         summary: >
