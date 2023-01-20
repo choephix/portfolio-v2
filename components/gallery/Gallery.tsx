@@ -1,4 +1,10 @@
-import React, { PropsWithRef, PropsWithoutRef, useEffect, useRef, useState } from "react";
+import React, {
+  PropsWithRef,
+  PropsWithoutRef,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import styled from "styled-components";
 import { GalleryBackground } from "./GalleryBackground";
@@ -75,13 +81,8 @@ export const Gallery = (props: GalleryProps) => {
     );
   }
 
-  const backgroundImages = (data.backgroundImages || []).map(
-    (img) => `backdrops/${img}`
-  );
-
-  const thumbnailImages = (data.thumbnailImages || []).map(
-    (img) => `thumbs/${img}`
-  );
+  const backgroundImages = data.backgroundImages || [];
+  const thumbnailImages = data.thumbnailImages || [];
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
@@ -89,7 +90,7 @@ export const Gallery = (props: GalleryProps) => {
     <div
       ref={ref}
       className="gallery w-full relative overflow-hidden m-2"
-      style={{ 
+      style={{
         height: selected ? "75vh" : "320px",
         maxHeight: "800px",
         transition: "height 0.3s linear",
