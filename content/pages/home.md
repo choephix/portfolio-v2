@@ -35,19 +35,19 @@ blocks:
         date: 07/2020
         backgroundImages:
           - >-
-            /backdrops/309075810_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/309075810_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /backdrops/622135342_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/622135342_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /backdrops/2141036647_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/2141036647_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /backdrops/2962671468_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/2962671468_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /backdrops/3182224512_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/3182224512_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /backdrops/3319480819_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/3319480819_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /backdrops/4148135450_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/4148135450_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
         thumbnailImages:
           - /thumbs/7mojos/InfiniteWilds.mp4
           - /thumbs/7mojos/InfiniteWilds2.mp4
@@ -62,21 +62,21 @@ blocks:
         date: 7/2015
         backgroundImages:
           - >-
-            /backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_2055653219.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_2055653219.webp
           - >-
-            /backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_2538201719.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_2538201719.webp
           - >-
-            /backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_3726994982.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_3726994982.webp
           - >-
-            /backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_2420326938.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_2420326938.webp
           - >-
-            /backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_278642940.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_278642940.webp
           - >-
-            /backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_3636165118.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_3636165118.webp
           - >-
-            /backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_3818816736.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_3818816736.webp
           - >-
-            /backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_554369460.webp
+            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_554369460.webp
         thumbnailImages:
           - /thumbs/JellyBrain0.mp4
           - /thumbs/bigmage/jellybrain/2.jpg
@@ -98,33 +98,33 @@ blocks:
         date: 05/2013
         backgroundImages:
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1192809013.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1192809013.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1843889771.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1843889771.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2116600594.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2116600594.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2153709805.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2153709805.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2212694810.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2212694810.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2451401700.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2451401700.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2569409960.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2569409960.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3074067026.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3074067026.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3266476548.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3266476548.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3317037403.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3317037403.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3559917118.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3559917118.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_4036980665.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_4036980665.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_439762704.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_439762704.webp
           - >-
-            /backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_965793550.webp
+            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_965793550.webp
         thumbnailImages:
           - /thumbs/--jts1-hevc.mp4
           - /thumbs/JungleTreasure1.mp4
@@ -146,15 +146,15 @@ blocks:
         date: 07/2012
         backgroundImages:
           - >-
-            /backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_2428572425.webp
+            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_2428572425.webp
           - >-
-            /backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_3347482481.webp
+            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_3347482481.webp
           - >-
-            /backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_3711657078.webp
+            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_3711657078.webp
           - >-
-            /backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_4215736958.webp
+            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_4215736958.webp
           - >-
-            /backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_904056896.webp
+            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_904056896.webp
         thumbnailImages:
           - /thumbs/bigmage/jungletrouble/jungletrouble2_640.jpg
           - /thumbs/JungleTrouble1.mp4
@@ -168,13 +168,13 @@ blocks:
         date: 01/2010
         backgroundImages:
           - >-
-            /backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_1543348911.webp
+            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_1543348911.webp
           - >-
-            /backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2413862583.webp
+            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2413862583.webp
           - >-
-            /backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2951022213.webp
+            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2951022213.webp
           - >-
-            /backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_3889103449.webp
+            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_3889103449.webp
         thumbnailImages:
           - /thumbs/fra1.mp4
           - /thumbs/fra3.mp4
@@ -191,15 +191,15 @@ blocks:
         date: 05/2014
         backgroundImages:
           - >-
-            /backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_318713895.webp
+            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_318713895.webp
           - >-
-            /backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_3652678719.webp
+            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_3652678719.webp
           - >-
-            /backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_453739232.webp
+            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_453739232.webp
           - >-
-            /backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_63189152.webp
+            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_63189152.webp
           - >-
-            /backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_729119324.webp
+            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_729119324.webp
         thumbnailImages:
           - /thumbs/StreetMobster1.mp4
           - /thumbs/StreetMobster2.mp4
@@ -221,17 +221,17 @@ blocks:
         date: 09/2019
         backgroundImages:
           - >-
-            /backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1272092685.webp
+            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1272092685.webp
           - >-
-            /backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1540855742.webp
+            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1540855742.webp
           - >-
-            /backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2406655520.webp
+            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2406655520.webp
           - >-
-            /backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_244723129.webp
+            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_244723129.webp
           - >-
-            /backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2856751774.webp
+            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2856751774.webp
           - >-
-            /backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_3095471410.webp
+            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_3095471410.webp
         thumbnailImages:
           - /thumbs/independent/ccgw/ccgw-0a.jpg
           - /thumbs/independent/ccgw/ccgw-1.jpg
@@ -257,15 +257,15 @@ blocks:
         date: 07/2016
         backgroundImages:
           - >-
-            /backdrops/live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_1348245627.webp
+            /uploads/backdrops/live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_1348245627.webp
           - >-
-            /backdrops/live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_2865880298.webp
+            /uploads/backdrops/live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_2865880298.webp
           - >-
-            /backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_4015559387.webp
+            /uploads/backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_4015559387.webp
           - >-
-            /backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_581764122.webp
+            /uploads/backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_581764122.webp
           - >-
-            /backdrops/billiards_club_inspired_by_gta_cover_art_casual_game
+            /uploads/backdrops/billiards_club_inspired_by_gta_cover_art_casual_game
             (1)_2183929294.webp
         thumbnailImages:
           - /thumbs/bigmage/hasht/hasht-1.jpg
@@ -290,27 +290,27 @@ blocks:
         date: 03/2012
         backgroundImages:
           - >-
-            /backdrops/music_gallery_vinyls_collection_discs_casual_game_2091760183.webp
+            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_2091760183.webp
           - >-
-            /backdrops/music_gallery_vinyls_collection_discs_casual_game_3947593383.webp
+            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_3947593383.webp
           - >-
-            /backdrops/music_gallery_vinyls_collection_discs_casual_game_3959715379.webp
+            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_3959715379.webp
           - >-
-            /backdrops/music_gallery_vinyls_collection_discs_casual_game_572651048.webp
+            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_572651048.webp
           - >-
-            /backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_1057618330.webp
+            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_1057618330.webp
           - >-
-            /backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_157083580.webp
+            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_157083580.webp
           - >-
-            /backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_1840260383.webp
+            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_1840260383.webp
           - >-
-            /backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_3908490438.webp
+            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_3908490438.webp
           - >-
-            /backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_4142197805.webp
+            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_4142197805.webp
           - >-
-            /backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_654623831.webp
+            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_654623831.webp
           - >-
-            /backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_997368298.webp
+            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_997368298.webp
         thumbnailImages:
           - /thumbs/independent/music/1.jpg
           - /thumbs/independent/music/agora.profile.jpg
@@ -324,13 +324,13 @@ blocks:
         date: 01/2013
         backgroundImages:
           - >-
-            /backdrops/arhipelago_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1461231475.webp
+            /uploads/backdrops/arhipelago_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1461231475.webp
           - >-
-            /backdrops/arhipelago_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2065516636.webp
+            /uploads/backdrops/arhipelago_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2065516636.webp
           - >-
-            /backdrops/arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1308733375.webp
+            /uploads/backdrops/arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1308733375.webp
           - >-
-            /backdrops/arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_588209326.webp
+            /uploads/backdrops/arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_588209326.webp
         thumbnailImages:
           - /thumbs/bigmage/piratesarena/1.jpg
           - /thumbs/bigmage/piratesarena/2.jpg
@@ -373,33 +373,33 @@ blocks:
         date: 01/2011
         backgroundImages:
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_112140760.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_112140760.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1249010556.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1249010556.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1696941406.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1696941406.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2302694797.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2302694797.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2563574179.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2563574179.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3198145631.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3198145631.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3664286467.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3664286467.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_47912279.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_47912279.webp
           - >-
-            /backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_641480197.webp
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_641480197.webp
           - >-
-            /backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2017682470.webp
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2017682470.webp
           - >-
-            /backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3094194169.webp
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3094194169.webp
           - >-
-            /backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3323516413.webp
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3323516413.webp
           - >-
-            /backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_376232026.webp
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_376232026.webp
           - >-
-            /backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_951573216.webp
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_951573216.webp
         thumbnailImages:
           - /thumbs/independent/sumobattle/sumo0.jpg
           - /thumbs/independent/sumobattle/sumo1.jpg
@@ -447,15 +447,15 @@ blocks:
         date: 09/2011
         backgroundImages:
           - >-
-            /backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1141341689.webp
+            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1141341689.webp
           - >-
-            /backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1731705866.webp
+            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1731705866.webp
           - >-
-            /backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1974621564.webp
+            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1974621564.webp
           - >-
-            /backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_3946500764.webp
+            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_3946500764.webp
           - >-
-            /backdrops/bright_wedding_groom_bride_party_room_real_photo_858305003.webp
+            /uploads/backdrops/bright_wedding_groom_bride_party_room_real_photo_858305003.webp
         thumbnailImages:
           - /thumbs/independent/wedding/agora.profile.jpg
           - /thumbs/independent/wedding/agora.profile.png
