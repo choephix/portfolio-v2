@@ -51,11 +51,9 @@ blocks:
           - independent/ccgw/ccgw-0a.jpg
           - independent/ccgw/ccgw-1.jpg
           - independent/ccgw/ccgw-2.jpg
-        feature: true
-        body: ''
       - abstract: Flash games for various portals.
         name: Furry Robots Attack! / Scaperide
-        summary: null
+        summary: ''
         skills: 'Flash IDE, ActionScript 3.0, Vector Graphics, Vector Animation, Design'
         date: 01/2010
         backgroundImages:
@@ -76,13 +74,11 @@ blocks:
           - fra7-hevc.mp4
           - independent/fra/fra200x200bot.jpg
           - fra5-hevc.mp4
-        feature: true
-        body: ''
       - abstract: Multiplayer billiards game for iOS and Android
         name: Hasht
         summary: >
           Mobile game for iOS and Android. Play 8-Ball pool with friends and
-          strangers. 
+          strangers.
 
           Features realtime multiplayer, rank based match-making, scheduled
           tournaments, in-app purchases, push notifications.
@@ -121,11 +117,9 @@ blocks:
           - bigmage/hasht/hasht (6).webp
           - bigmage/hasht/hasht (7).webp
           - bigmage/hasht/hasht (8).webp
-        feature: true
-        body: ''
       - abstract: Slot games SDK for online casino
         name: 7Mojos v2 Slots / Infinite Wilds
-        summary: >-
+        summary: >
           The first game, as well as project structure, SDK, and tools for the
           asset pipeline of a company's new slot games portfolio.
         skills: 'Node.js, TypeScript, PixiJS, Howler.js, GSAP, Gulp, Electron'
@@ -151,11 +145,10 @@ blocks:
           - 7mojos/InfiniteWilds3.webm
           - 7mojos/InfiniteWilds4.mp4
           - 7mojos/InfiniteWilds5.mp4
-        feature: true
-        body: ''
       - abstract: Casual Endless Jumper Game for iOS and Android
         name: Jelly Brain
-        summary: Casual Endless Jumper Game for iOS and Android
+        summary: |
+          Casual Endless Jumper Game for iOS and Android
         skills: 'Adobe AIR, Actionscript 3.0, Mobile Development, Play Store, Video Ads'
         date: 7/2015
         backgroundImages:
@@ -182,8 +175,6 @@ blocks:
           - bigmage/jellybrain/jb-27.jpg
           - JellyBrain2.mp4
           - bigmage/jellybrain/3.jpg
-        feature: true
-        body: ''
       - abstract: Casual mobile game for iOS and Android
         name: Jungle Treasure
         summary: >
@@ -191,7 +182,7 @@ blocks:
           Birds.
 
           Players can progress through the 100 levels of the single player
-          campaign, 
+          campaign,
 
           or build their own stages and challenge their friends to beat them.
         skills: 'Adobe AIR, ActionScript 3.0, Starling, Feathers UI, Design'
@@ -234,11 +225,9 @@ blocks:
           - JungleTreasure5.mp4
           - JungleTreasure6.mp4
           - bigmage/jungletreasure/jt-7a.jpg
-        feature: true
-        body: ''
       - abstract: Multiplayer brawler game for the Web
         name: Jungle Trouble
-        summary: >-
+        summary: >
           3D arena brawler game for the browser. Players control jungle animals
           in realtime multiplayer, and have to use spinning moves and pick-up
           abilities to push each other off the platform without themselves
@@ -263,11 +252,9 @@ blocks:
           - bigmage/jungletrouble/3.jpg
           - JungleTrouble2.mp4
           - bigmage/jungletrouble/6.jpg
-        feature: true
-        body: ''
       - abstract: Browser MMO Game about Gangster Life
         name: Mafia Saints / BG Mafia
-        summary: null
+        summary: ''
         skills: null
         date: 05/2014
         backgroundImages:
@@ -293,8 +280,6 @@ blocks:
           - bigmage/bgmafia/7.jpg
           - bigmage/bgmafia/8.jpg
           - bigmage/bgmafia/9.jpg
-        feature: true
-        body: ''
       - abstract: Music gallery and player app for vinyls
         name: Music Gallery
         summary: >
@@ -327,8 +312,6 @@ blocks:
           - independent/music/1.jpg
           - independent/music/agora.profile.jpg
           - smol/mgal.jpg
-        feature: true
-        body: ''
       - abstract: MMO Browser games about pirates
         name: Lucid Star / PiratiBG
         summary: >
@@ -365,11 +348,9 @@ blocks:
           - bigmage/lucidstar/8.jpg
           - bigmage/lucidstar/9.jpg
           - bigmage/lucidstar/lucid_640.jpg
-        feature: true
-        body: ''
       - abstract: 3D visualization tool for online races
         name: SimWin RDS Dashboard
-        summary: >-
+        summary: >
           A dashboard for inspecting scene and telemetry data from popular
           online racing game
         skills: >-
@@ -380,8 +361,6 @@ blocks:
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
-        feature: true
-        body: ''
       - abstract: Local Multiplayer Game with Sumo-wrestlers
         name: Sumo Battle!
         summary: >
@@ -421,11 +400,9 @@ blocks:
         thumbnailImages:
           - independent/sumobattle/sumo0.jpg
           - independent/sumobattle/sumo1.jpg
-        feature: true
-        body: ''
       - abstract: Strategy browser game with trains on the blockchain
         name: Train of the Century
-        summary: >-
+        summary: >
           Browser game where you can own and trade trains, parts and stations
           represented by NFTs on the WAX blockchain.
         skills: >-
@@ -438,11 +415,10 @@ blocks:
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
-        feature: true
-        body: ''
       - abstract: Text Role Playing Game Prototype
         name: Text RPG
-        summary: Text Role Playing Game Prototype
+        summary: |
+          Text Role Playing Game Prototype
         skills: 'Angular, TypeScript, Github API, Firebase'
         date: 06/2019
         thumbnailImages:
@@ -450,8 +426,6 @@ blocks:
           - independent/txtrpg/txtrpg-2.jpg
           - independent/txtrpg/txtrpg-3.jpg
           - independent/txtrpg/txtrpg-4.jpg
-        feature: true
-        body: ''
       - abstract: Multiplayer party games on the web.
         name: VEN Games
         summary: >
@@ -467,11 +441,10 @@ blocks:
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
           - ../julia-joppien.jpg
-        feature: true
-        body: ''
       - abstract: Wedding Planner Web App
         name: Wedding Planner
-        summary: Wedding Planner Web App
+        summary: |
+          Wedding Planner Web App
         skills: 'ActionScript 3.0, Flash IDE, Design'
         date: 09/2011
         backgroundImages:
@@ -489,34 +462,7 @@ blocks:
           - independent/wedding/agora.profile.png
           - smol/seating.jpg
           - smol/wcast.jpg
-        feature: true
-        body: ''
     _template: projects
-  - items:
-      - icon:
-          name: BiPalette
-          color: green
-          style: float
-        title: Configurable Theme
-        text: >-
-          Edit global theme configuration with Tina. Change your theme's primary
-          color, font, or icon set.
-      - icon:
-          name: BiLike
-          color: primary
-          style: float
-        title: This Is a Feature
-        text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
-      - icon:
-          name: BiCodeBlock
-          color: red
-          style: float
-        title: Amazing Feature
-        text: >-
-          Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
-          Praesent ac faucibus risus, eu lacinia enim.
-    color: tint
-    _template: features
   - quote: >-
       A good programmer is someone who always looks both ways before crossing a
       one-way street.
@@ -524,6 +470,7 @@ blocks:
     color: tint
     _template: testimonial
 ---
+
 
 
 

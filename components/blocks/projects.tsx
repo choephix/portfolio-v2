@@ -28,7 +28,6 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
         > */}
           {data.projects.map((project, index) => {
             return (
-              // project.abstract
               <Gallery key={index} data={project} />
             );
           })}
