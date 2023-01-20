@@ -1,4 +1,5 @@
 import { defineStaticConfig } from "tinacms";
+import { projectsBlockSchema } from "../components/blocks/projects";
 import { contentBlockSchema } from "../components/blocks/content";
 import { featureBlockSchema } from "../components/blocks/features";
 import { heroBlockSchema } from "../components/blocks/hero";
@@ -358,6 +359,7 @@ const config = defineStaticConfig({
               visualSelector: true,
             },
             templates: [
+              projectsBlockSchema,
               heroBlockSchema,
               // @ts-ignore
               featureBlockSchema,
@@ -403,13 +405,19 @@ const config = defineStaticConfig({
           {
             type: "string",
             name: "background",
-            label: "Skills",
+            label: "Backgrounds",
             list: true,
           },
           {
             type: "string",
             name: "thumbs",
-            label: "Skills",
+            label: "Thumbnails",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "extra",
+            label: "Extra Thumbnails",
             list: true,
           },
           {
