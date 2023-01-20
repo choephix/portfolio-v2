@@ -1,15 +1,18 @@
-import React from "react";
 import { Container } from "../util/container";
 import { Section } from "../util/section";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksProjects } from "../../.tina/__generated__/types";
 import Gallery from "../gallery/Gallery";
+import { useState } from "react";
 
 type ProjectsGalleryProps = { data: PageBlocksProjects; parentField?: string };
 
 export const ProjectsGallery = (props: ProjectsGalleryProps) => {
   const { data, parentField = "" } = props;
+
+  const [selectedIndex, setSelectedIndex] = useState(-1);
+
   return (
     <Section color={data.color}>
       <Container
@@ -28,7 +31,14 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
         >
           {data.projects.map((project, index) => {
             return (
-              <Gallery key={index} data={project} />
+              <Gallery
+                key={index}
+                data={project}
+                selected={index === selectedIndex}
+                onClick={() =>
+                  setSelectedIndex(index === selectedIndex ? -1 : index)
+                }
+              />
             );
           })}
         </div>

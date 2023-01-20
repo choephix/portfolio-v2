@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { PropsWithRef, PropsWithoutRef, useEffect, useRef, useState } from "react";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import styled from "styled-components";
 import { GalleryBackground } from "./GalleryBackground";
@@ -9,6 +9,8 @@ type ProjectsData = PageBlocksProjects["projects"][number];
 
 export type GalleryProps = {
   data: ProjectsData;
+  selected?: boolean;
+  onClick?: () => void;
 };
 
 const GalleryTitleDiv = styled.h1`
@@ -48,7 +50,7 @@ const GalleryDescrDiv = styled.div`
 /* A React component that is using the useState and useEffect hooks to create a gallery of images that
 will scroll through the images every 3 seconds. */
 export const Gallery = (props: GalleryProps) => {
-  const { data } = props;
+  const { data, selected, onClick } = props;
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
@@ -86,8 +88,14 @@ export const Gallery = (props: GalleryProps) => {
   return (
     <div
       ref={ref}
-      className="gallery w-full relative"
-      style={{ height: "400px" }}
+      className="gallery w-full relative overflow-hidden m-2"
+      style={{ 
+        height: selected ? "75vh" : "320px",
+        maxHeight: "800px",
+        transition: "height 0.3s linear",
+        transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
+      }}
+      onClick={onClick}
     >
       <GalleryBackground
         images={backgroundImages}
