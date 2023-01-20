@@ -77,6 +77,10 @@ export const Gallery = (props: GalleryProps) => {
     (img) => `backdrops/${img}`
   );
 
+  const thumbnailImages = (data.thumbnailImages || []).map(
+    (img) => `thumbs/${img}`
+  );
+
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
   return (
@@ -104,7 +108,7 @@ export const Gallery = (props: GalleryProps) => {
       /> */}
 
       <GalleryThumbsSlider
-        images={data.thumbnailImages}
+        images={thumbnailImages}
         style={{
           position: "absolute",
           bottom: "0px",
