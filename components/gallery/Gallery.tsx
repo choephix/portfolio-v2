@@ -10,6 +10,7 @@ import styled from "styled-components";
 import { GalleryBackground } from "./GalleryBackground";
 import { GalleryThumbsSlider } from "./GalleryThumbsSlider";
 import { PageBlocksProjects } from "../../.tina/__generated__/types";
+import { useTina } from "tinacms/dist/react";
 
 type ProjectsData = PageBlocksProjects["projects"][number];
 
@@ -46,11 +47,11 @@ const GalleryDescrDiv = styled.div`
   opacity: 0;
   transform: translateX(-24px);
   transition: opacity 0.3s linear, transform 0.3s linear;
-  *:hover > * > & {
-    opacity: 1;
-    transform: translateX(0%);
-    transition: opacity 0.2s linear, transform 0.2s linear;
-  }
+  // *:hover > * > & {
+  //   opacity: 1;
+  //   transform: translateX(0%);
+  //   transition: opacity 0.2s linear, transform 0.2s linear;
+  // }
 `;
 
 /* A React component that is using the useState and useEffect hooks to create a gallery of images that
@@ -61,15 +62,17 @@ export const Gallery = (props: GalleryProps) => {
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
   const ref = useRef<any>(null);
-  const [width, setWidth] = useState(0);
-  React.useEffect(() => {
-    const handleResize = () => setWidth(ref.current?.offsetWidth || 0);
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, [!!ref.current]);
+  // const [width, setWidth] = useState(0);
+  // React.useEffect(() => {
+  //   const handleResize = () => setWidth(ref.current?.offsetWidth || 0);
+  //   handleResize();
+  //   window.addEventListener("resize", handleResize);
+  //   return () => window.removeEventListener("resize", handleResize);
+  // }, [!!ref.current]);
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
+
+  if (!data) return <div>no data</div>;
 
   const backgroundImages = data.backgroundImages || [];
   const thumbnailImages = data.thumbnailImages || [];
@@ -93,7 +96,7 @@ export const Gallery = (props: GalleryProps) => {
       style={{
         height: selected ? "75vh" : "320px",
         maxHeight: "800px",
-        transition: "height 0.3s linear",
+        transition: "height 0.7s linear",
         transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
       }}
       onClick={onClick}

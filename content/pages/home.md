@@ -26,6 +26,22 @@ blocks:
   - body: ''
     color: tint
     projects:
+      - abstract: JUST A TEST
+        name: JUST A TEST
+        summary: |
+          JUST A TEST
+        backgroundImages:
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674257058/cld-sample.jpg
+        thumbnailImages:
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/samples/elephants.mp4
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/samples/sea-turtle.mp4
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/recipes/user_video.mp4
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/samples/cld-sample-video.mp4
       - abstract: Slot games SDK for online casino
         name: 7Mojos v2 Slots / Infinite Wilds
         summary: >
@@ -35,19 +51,31 @@ blocks:
         date: 07/2020
         backgroundImages:
           - >-
-            /uploads/backdrops/309075810_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            https://res.cloudinary.com/choephix/image/upload/v1674260741/Portfolio/AI%20Generated%20Backgrounds/1566857677_Night_city_landscape__dark_purple_blue_teal_gold__night_sky__80s_album_cover__neon_grid_g5jdht.png
           - >-
-            /uploads/backdrops/622135342_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            https://res.cloudinary.com/choephix/image/upload/v1674260750/Portfolio/AI%20Generated%20Backgrounds/53200573_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_wn5rch.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260746/Portfolio/AI%20Generated%20Backgrounds/403625638_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_yy3sxm.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260881/Portfolio/AI%20Generated%20Backgrounds/00060-4182401765-Night_city_landscape_dark_purple_blue_teal_gold_night_sky_80s_album_art_neon_grid_vmq19y.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260751/Portfolio/AI%20Generated%20Backgrounds/2606616713_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_nim1bv.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260741/Portfolio/AI%20Generated%20Backgrounds/2265213491_Night_city_landscape__dark_purple_blue_teal_gold__night_sky__80s_album_cover__neon_grid_rasphz.png
+          - >-
+            /uploads/backdrops/4148135450_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+          - >-
+            /uploads/backdrops/3319480819_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+          - >-
+            /uploads/backdrops/3182224512_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
             /uploads/backdrops/2141036647_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
             /uploads/backdrops/2962671468_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /uploads/backdrops/3182224512_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/622135342_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
           - >-
-            /uploads/backdrops/3319480819_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-          - >-
-            /uploads/backdrops/4148135450_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
+            /uploads/backdrops/309075810_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
         thumbnailImages:
           - /thumbs/7mojos/InfiniteWilds.mp4
           - /thumbs/7mojos/InfiniteWilds2.mp4
@@ -98,6 +126,8 @@ blocks:
         date: 05/2013
         backgroundImages:
           - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260895/Portfolio/AI%20Generated%20Backgrounds/00102-3949262487-side-scrolling_game_fantasy_amazon_forest_background_landscape_UHD_volumetric_lighting_8K_blue_sky_ci7gl5.png
+          - >-
             /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1192809013.webp
           - >-
             /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1843889771.webp
@@ -146,6 +176,8 @@ blocks:
         date: 07/2012
         backgroundImages:
           - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260917/Portfolio/AI%20Generated%20Backgrounds/00078-1268102658-fantasy_amazon_forest_aztec_ruins_landscape_bird_view_UHD_volumetric_lighting_8K_sunrise_djxwkf.png
+          - >-
             /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_2428572425.webp
           - >-
             /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_3347482481.webp
@@ -161,6 +193,58 @@ blocks:
           - /thumbs/bigmage/jungletrouble/3.jpg
           - /thumbs/JungleTrouble2.mp4
           - /thumbs/bigmage/jungletrouble/6.jpg
+      - abstract: Local Multiplayer Game with Sumo-wrestlers
+        name: Sumo Battle!
+        summary: >
+          Local multiplayer game, where players play elimination matches with
+          sumo-wrestlers controlled with only one button.
+        skills: 'Unity, C#, .NET, 3Ds Max, Photoshop'
+        date: 01/2011
+        backgroundImages:
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_47912279.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3664286467.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2302694797.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3198145631.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_641480197.webp
+          - >-
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3094194169.webp
+          - >-
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3323516413.webp
+          - >-
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_376232026.webp
+          - >-
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_951573216.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_112140760.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1249010556.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1696941406.webp
+          - >-
+            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2563574179.webp
+          - >-
+            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2017682470.webp
+        thumbnailImages:
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
+            Battle 3D -- Unlockable Skins Feature.mp4
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
+            Battle 3D -- Sushi Feature.mp4
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
+            Battle 3D -- Survival Feature.mp4
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
+            Battle 3D -- Local 2.mp4
+          - >-
+            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo%20Battle%203D%20--%20Local%201.mp4
+          - /thumbs/independent/sumobattle/sumo0.jpg
       - abstract: Flash games for various portals.
         name: Furry Robots Attack! / Scaperide
         summary: ''
@@ -212,6 +296,26 @@ blocks:
           - /thumbs/bigmage/bgmafia/7.jpg
           - /thumbs/bigmage/bgmafia/8.jpg
           - /thumbs/bigmage/bgmafia/9.jpg
+      - abstract: Strategy browser game with trains on the blockchain
+        name: Train of the Century
+        summary: >
+          Browser game where you can own and trade trains, parts and stations
+          represented by NFTs on the WAX blockchain.
+        skills: >-
+          PixiJS, JavaScript, TypeScript, Blockchain, EOSIO, NFT, Firebase,
+          GSAP, Airtable, Sentry, Github Actions, Node.js, WebGL, GLSL, Webpack,
+          Firebase, Firebase Authentication, Firebase Hosting, Postman,
+          Serverless, D3.js, Ethers.js, Web3.js
+        date: 09/2021
+        backgroundImages:
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260969/Portfolio/AI%20Generated%20Backgrounds/00032-1578276195-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_p9ek8e.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260986/Portfolio/AI%20Generated%20Backgrounds/00050-3279451174-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_a8ui4v.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260955/Portfolio/AI%20Generated%20Backgrounds/00012-3954672617-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_tybkyt.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260948/Portfolio/AI%20Generated%20Backgrounds/00013-3954672618-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_bks7xo.png
       - abstract: Multiplayer Trading Card Game for the Web
         name: DRIMGAR
         summary: ''
@@ -257,16 +361,18 @@ blocks:
         date: 07/2016
         backgroundImages:
           - >-
-            /uploads/backdrops/live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_1348245627.webp
+            https://res.cloudinary.com/choephix/image/upload/v1674260708/Portfolio/AI%20Generated%20Backgrounds/2868895862_Billiards_table__night_bar__empty__UHD__4K__saturated_a3yfgc.png
           - >-
-            /uploads/backdrops/live_music_bar_brightly_lit_light_gray_color_scheme_casual_game_2865880298.webp
+            https://res.cloudinary.com/choephix/image/upload/v1674260702/Portfolio/AI%20Generated%20Backgrounds/3381673603_Billiards_table__night_bar_interior__empty__UHD__4K__saturated__led_lights_atzd4z.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260696/Portfolio/AI%20Generated%20Backgrounds/429619699_Billiards_table__night_bar_interior__empty__UHD__4K__saturated__led_lights_mtkws1.png
           - >-
             /uploads/backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_4015559387.webp
           - >-
-            /uploads/backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_581764122.webp
-          - >-
             /uploads/backdrops/billiards_club_inspired_by_gta_cover_art_casual_game
             (1)_2183929294.webp
+          - >-
+            /uploads/backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_581764122.webp
         thumbnailImages:
           - /thumbs/bigmage/hasht/hasht-1.jpg
           - /thumbs/bigmage/hasht/hasht-2.jpg
@@ -279,6 +385,94 @@ blocks:
           - /thumbs/bigmage/hasht/hasht (6).webp
           - /thumbs/bigmage/hasht/hasht (7).webp
           - /thumbs/bigmage/hasht/hasht (8).webp
+      - abstract: MMO Browser games about pirates
+        name: Lucid Star / PiratiBG
+        summary: >
+          Massively Multiplayer Online Games in the browser about pirates
+          fighting in fictional oceans and a subsequent re-skin in space.
+        skills: null
+        date: 01/2013
+        backgroundImages:
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260619/Portfolio/AI%20Generated%20Backgrounds/3048366687_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_azqvbk.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260734/Portfolio/AI%20Generated%20Backgrounds/817187828_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__aqb5fm.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260618/Portfolio/AI%20Generated%20Backgrounds/3930730815_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_ts6wwv.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260467/Portfolio/AI%20Generated%20Backgrounds/4031786970_cliff_photo_of_battling_pirate_ships__masterpiece_digital_art__wild_waves__night__colorful__riot_gam_qj2gv6.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260626/Portfolio/AI%20Generated%20Backgrounds/74637099_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_jq7zmh.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260732/Portfolio/AI%20Generated%20Backgrounds/3078493594_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_e50hhw.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260909/Portfolio/AI%20Generated%20Backgrounds/00069-3676666910-pirate_ships_fighting_digital_art_riot_games_style_fantasy_hyperrealistic_UHD_4K_colorful_saturated_jgmblv.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260733/Portfolio/AI%20Generated%20Backgrounds/1052153890_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_r7mfiu.png
+        thumbnailImages:
+          - /thumbs/bigmage/piratesarena/1.jpg
+          - /thumbs/bigmage/piratesarena/2.jpg
+          - /thumbs/bigmage/piratesarena/3.jpg
+          - /thumbs/bigmage/piratesarena/4.jpg
+          - /thumbs/bigmage/piratesarena/pirati_640.jpg
+          - /thumbs/bigmage/lucidstar/1.jpg
+          - /thumbs/bigmage/lucidstar/10.jpg
+          - /thumbs/bigmage/lucidstar/11.jpg
+          - /thumbs/bigmage/lucidstar/12.jpg
+          - /thumbs/bigmage/lucidstar/13.jpg
+          - /thumbs/bigmage/lucidstar/2.jpg
+          - /thumbs/bigmage/lucidstar/3.jpg
+          - /thumbs/bigmage/lucidstar/4.jpg
+          - /thumbs/bigmage/lucidstar/5.jpg
+          - /thumbs/bigmage/lucidstar/6.jpg
+          - /thumbs/bigmage/lucidstar/7.jpg
+          - /thumbs/bigmage/lucidstar/8.jpg
+          - /thumbs/bigmage/lucidstar/9.jpg
+          - /thumbs/bigmage/lucidstar/lucid_640.jpg
+      - abstract: 3D visualization tool for online races
+        name: SimWin RDS Dashboard
+        summary: >
+          A dashboard for inspecting scene and telemetry data from popular
+          online racing game
+        skills: >-
+          Typescript, React, MUI, Threejs, Recharts, Sentry, Jira, Node.js, AWS,
+          Figma
+        date: 09/2022
+        backgroundImages:
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260940/Portfolio/AI%20Generated%20Backgrounds/00008-4053678618-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_pcblbi.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260937/Portfolio/AI%20Generated%20Backgrounds/00004-1886296194-Screenshot_from_a_racing_game_on_Monza_track_UHD_super_realistic_cy5ujy.png
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260940/Portfolio/AI%20Generated%20Backgrounds/00010-4053678620-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_h5ydwm.png
+      - abstract: Text Role Playing Game Prototype
+        name: Text RPG
+        summary: |
+          Text Role Playing Game Prototype
+        skills: 'Angular, TypeScript, Github API, Firebase'
+        date: 06/2019
+        backgroundImages:
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674260977/Portfolio/AI%20Generated%20Backgrounds/00036-4144471185-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_rcgyl8.png
+        thumbnailImages:
+          - /thumbs/independent/txtrpg/txtrpg-1.jpg
+          - /thumbs/independent/txtrpg/txtrpg-2.jpg
+          - /thumbs/independent/txtrpg/txtrpg-3.jpg
+          - /thumbs/independent/txtrpg/txtrpg-4.jpg
+      - abstract: Multiplayer party games on the web.
+        name: VEN Games
+        summary: >
+          A collection of three party games on the web.
+
+          Written in React + Typescript, utilizing Firebase Realtime Database
+          for realtime multiplayer.
+        skills: >-
+          Lerna, Typescript, React, Firebase, Firebase Firestore, Firebase
+          Realtime Database, Firebase Functions, Figma
+        date: 07/2020
+        backgroundImages:
+          - >-
+            /uploads/430395753_Purple_Corporate_website_background_with_a_bunch_of_cartoon_people_partying.png
       - abstract: Music gallery and player app for vinyls
         name: Music Gallery
         summary: >
@@ -315,130 +509,6 @@ blocks:
           - /thumbs/independent/music/1.jpg
           - /thumbs/independent/music/agora.profile.jpg
           - /thumbs/smol/mgal.jpg
-      - abstract: MMO Browser games about pirates
-        name: Lucid Star / PiratiBG
-        summary: >
-          Massively Multiplayer Online Games in the browser about pirates
-          fighting in fictional oceans and a subsequent re-skin in space.
-        skills: null
-        date: 01/2013
-        backgroundImages:
-          - >-
-            /uploads/backdrops/arhipelago_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1461231475.webp
-          - >-
-            /uploads/backdrops/arhipelago_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2065516636.webp
-          - >-
-            /uploads/backdrops/arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1308733375.webp
-          - >-
-            /uploads/backdrops/arhipelago_very_small_islands_and_dark_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_588209326.webp
-        thumbnailImages:
-          - /thumbs/bigmage/piratesarena/1.jpg
-          - /thumbs/bigmage/piratesarena/2.jpg
-          - /thumbs/bigmage/piratesarena/3.jpg
-          - /thumbs/bigmage/piratesarena/4.jpg
-          - /thumbs/bigmage/piratesarena/pirati_640.jpg
-          - /thumbs/bigmage/lucidstar/1.jpg
-          - /thumbs/bigmage/lucidstar/10.jpg
-          - /thumbs/bigmage/lucidstar/11.jpg
-          - /thumbs/bigmage/lucidstar/12.jpg
-          - /thumbs/bigmage/lucidstar/13.jpg
-          - /thumbs/bigmage/lucidstar/2.jpg
-          - /thumbs/bigmage/lucidstar/3.jpg
-          - /thumbs/bigmage/lucidstar/4.jpg
-          - /thumbs/bigmage/lucidstar/5.jpg
-          - /thumbs/bigmage/lucidstar/6.jpg
-          - /thumbs/bigmage/lucidstar/7.jpg
-          - /thumbs/bigmage/lucidstar/8.jpg
-          - /thumbs/bigmage/lucidstar/9.jpg
-          - /thumbs/bigmage/lucidstar/lucid_640.jpg
-      - abstract: 3D visualization tool for online races
-        name: SimWin RDS Dashboard
-        summary: >
-          A dashboard for inspecting scene and telemetry data from popular
-          online racing game
-        skills: >-
-          Typescript, React, MUI, Threejs, Recharts, Sentry, Jira, Node.js, AWS,
-          Figma
-        date: 09/2022
-        thumbnailImages:
-          - ../julia-joppien.jpg
-          - ../julia-joppien.jpg
-          - ../julia-joppien.jpg
-      - abstract: Local Multiplayer Game with Sumo-wrestlers
-        name: Sumo Battle!
-        summary: >
-          Local multiplayer game, where players play elimination matches with
-          sumo-wrestlers controlled with only one button.
-        skills: 'Unity, C#, .NET, 3Ds Max, Photoshop'
-        date: 01/2011
-        backgroundImages:
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_112140760.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1249010556.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1696941406.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2302694797.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2563574179.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3198145631.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3664286467.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_47912279.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_641480197.webp
-          - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2017682470.webp
-          - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3094194169.webp
-          - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3323516413.webp
-          - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_376232026.webp
-          - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_951573216.webp
-        thumbnailImages:
-          - /thumbs/independent/sumobattle/sumo0.jpg
-          - /thumbs/independent/sumobattle/sumo1.jpg
-      - abstract: Strategy browser game with trains on the blockchain
-        name: Train of the Century
-        summary: >
-          Browser game where you can own and trade trains, parts and stations
-          represented by NFTs on the WAX blockchain.
-        skills: >-
-          PixiJS, JavaScript, TypeScript, Blockchain, EOSIO, NFT, Firebase,
-          GSAP, Airtable, Sentry, Github Actions, Node.js, WebGL, GLSL, Webpack,
-          Firebase, Firebase Authentication, Firebase Hosting, Postman,
-          Serverless, D3.js, Ethers.js, Web3.js
-        date: 09/2021
-      - abstract: Text Role Playing Game Prototype
-        name: Text RPG
-        summary: |
-          Text Role Playing Game Prototype
-        skills: 'Angular, TypeScript, Github API, Firebase'
-        date: 06/2019
-        thumbnailImages:
-          - /thumbs/independent/txtrpg/txtrpg-1.jpg
-          - /thumbs/independent/txtrpg/txtrpg-2.jpg
-          - /thumbs/independent/txtrpg/txtrpg-3.jpg
-          - /thumbs/independent/txtrpg/txtrpg-4.jpg
-      - abstract: Multiplayer party games on the web.
-        name: VEN Games
-        summary: >
-          A collection of three party games on the web.
-
-          Written in React + Typescript, utilizing Firebase Realtime Database
-          for realtime multiplayer.
-        skills: >-
-          Lerna, Typescript, React, Firebase, Firebase Firestore, Firebase
-          Realtime Database, Firebase Functions, Figma
-        date: 07/2020
-        backgroundImages:
-          - >-
-            /uploads/430395753_Purple_Corporate_website_background_with_a_bunch_of_cartoon_people_partying.png
       - abstract: Wedding Planner Web App
         name: Wedding Planner
         summary: |
@@ -469,15 +539,15 @@ blocks:
     color: tint
     _template: testimonial
 gallery:
-  - title: Aa
-    image: /uploads/60178860.jpg
-    size: sm
-  - title: B
-    image: /uploads/Slider02.png
-    size: lg
-  - title: C
-    image: /uploads/unsplash-75EFpyXu3Wg.jpg
+  - image: >-
+      https://res.cloudinary.com/choephix/video/upload/v1674158340/7mojos/InfiniteWilds5_oq6guy.webm
+  - image: /uploads/Slider02.png
+  - image: /uploads/unsplash-75EFpyXu3Wg.jpg
 ---
+
+
+
+
 
 
 

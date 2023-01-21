@@ -20,15 +20,15 @@ const config = defineStaticConfig({
   },
   media: {
     // If you wanted cloudinary do this
-    // loadCustomStore: async () => {
-    //   const pack = await import("next-tinacms-cloudinary");
-    //   return pack.TinaCloudCloudinaryMediaStore;
-    // },
-    // this is the config for the tina cloud media store
-    tina: {
-      mediaRoot: "uploads",
-      publicFolder: "public",
+    loadCustomStore: async () => {
+      const pack = await import("next-tinacms-cloudinary");
+      return pack.TinaCloudCloudinaryMediaStore as any;
     },
+    // this is the config for the tina cloud media store
+    // tina: {
+    //   mediaRoot: "uploads",
+    //   publicFolder: "public",
+    // },
   },
   schema: {
     collections: [
@@ -370,15 +370,16 @@ const config = defineStaticConfig({
 
           //// TEST //// EXPERIMENTAL ////
           {
-            label: "Image Gallery",
+            label: "Image Gallery X",
             name: "gallery",
             type: "object",
             list: true,
             ui: {
               itemProps: (item) => {
+                const title = item?.image.split("/").pop();
                 // Field values are accessed by title?.<Field name>
                 return {
-                  label: `🖼 ${item?.image}`,
+                  label: `🖼 ${title}`,
                   style: {
                     color: "cyan",
                     backgroundImage: `url(${item?.image})`,

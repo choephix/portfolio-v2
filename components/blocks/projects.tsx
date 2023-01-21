@@ -5,6 +5,7 @@ import type { Template } from "tinacms";
 import { PageBlocksProjects } from "../../.tina/__generated__/types";
 import Gallery from "../gallery/Gallery";
 import { useState } from "react";
+import { isWhiteSpaceLike } from "typescript";
 
 type ProjectsGalleryProps = { data: PageBlocksProjects; parentField?: string };
 
@@ -32,7 +33,7 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
           {data.projects.map((project, index) => {
             return (
               <Gallery
-                key={index}
+                key={`${index}-${project.name}`}
                 data={project}
                 selected={index === selectedIndex}
                 onClick={() =>
@@ -76,6 +77,21 @@ export const projectsBlockSchema: Template = {
       label: "Projects",
       ui: {
         visualSelector: true,
+        itemProps: (item) => {
+          return {
+            label: `⭐ ${item?.name}`,
+            // style: {
+              // // color: "white",
+              // backgroundImage: `url(${item?.backgroundImages?.[0]})`,
+              // backgroundSize: `cover`,
+              // backgroundPosition: `center`,
+              // // height: "64px",
+              // backgroundColor: `#FFFD`,
+              // backgroundBlendMosde: `screen`,
+              // userSelect: "none",
+            // },
+          };
+        },
       },
       fields: [
         {

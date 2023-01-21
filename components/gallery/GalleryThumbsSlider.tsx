@@ -48,11 +48,11 @@ export function GalleryThumbsSlider(props: GalleryThumbsSliderProps) {
   useWatchReturnValue(() => String(refStrip.current?.scrollWidth));
 
   return (
-    <div ref={refView} className='image-list' {...divAttr}>
+    <div ref={refView} className="image-list" {...divAttr}>
       <ThumbStrip ref={refStrip}>
-        {images.map((image, index) => (
-          <GalleryThumb src={image} key={index} />
-        ))}
+        {images.map((image, index) =>
+          image ? <GalleryThumb src={image} key={index + image} /> : null
+        )}
       </ThumbStrip>
     </div>
   );
