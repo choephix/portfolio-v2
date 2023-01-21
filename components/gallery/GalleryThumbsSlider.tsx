@@ -11,6 +11,9 @@ const ThumbStrip = styled.div`
   margin: 8px 0px;
   overflow-x: hidden;
 
+  display: block;
+  white-space: nowrap;
+
   &::-webkit-scrollbar {
     display: none;
   }

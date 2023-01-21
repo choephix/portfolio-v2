@@ -6,7 +6,7 @@ export function useRequestAnimationFrame(callback: () => void) {
 
   useEffect(() => {
     let handle: number;
-    const animate = () => {
+    function animate() {
       callbackRef.current();
       handle = requestAnimationFrame(animate);
     };

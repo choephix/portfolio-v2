@@ -1,12 +1,12 @@
-import { HTMLAttributes, useRef } from 'react';
-import styled from 'styled-components';
+import { HTMLAttributes, useRef } from "react";
+import styled from "styled-components";
 
 const ThumbImg = styled.img`
   height: 160px;
   width: auto;
   border-radius: 8px;
   margin: 20px 12px;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, .8);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
 `;
 
 const ThumbVideo = styled.video`
@@ -14,7 +14,17 @@ const ThumbVideo = styled.video`
   width: auto;
   border-radius: 8px;
   margin: 20px 12px;
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, .8);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+`;
+
+const ThumbDiv = styled.div`
+  border-radius: 8px;
+  margin: 20px 12px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+
+  display: inline-block;
+  overflow: hidden;
 `;
 
 type GalleryThumbProps = HTMLAttributes<any> & {
@@ -24,7 +34,7 @@ type GalleryThumbProps = HTMLAttributes<any> & {
 export function GalleryThumb(props: GalleryThumbProps) {
   const { src, ...divAttr } = props;
 
-  const ref = useRef<HTMLVideoElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   // const PAUSED = useWatchReturnValue(
   //   () => {
@@ -50,16 +60,39 @@ export function GalleryThumb(props: GalleryThumbProps) {
   // , [])
   // console.log('GalleryThumb', src, PAUSED);
 
-  return src.endsWith('.mp4') ? (
-    <ThumbVideo muted autoPlay loop ref={ref} preload='metadata'>
-      <source src={src} type='video/mp4' />
-    </ThumbVideo>
-  ) : src.endsWith('.webm') ? (
-    <ThumbVideo muted autoPlay loop ref={ref} preload='metadata'>
-      <source src={src} type='video/webm' />
-    </ThumbVideo>
-  ) : (
-    <ThumbImg src={src} alt={`image-${src}`} style={{}} />
+  const contentElemenetStyle: React.CSSProperties = {
+    height: "160px",
+    width: "auto",
+    margin: "0",
+    padding: "0",
+    // borderRadius: "8px",
+    // margin: "20px 12px",
+    // boxShadow: "0 0 20px 0px rgba(0, 0, 0, 0.8)",
+    // objectFit: "cover",
+  };
+
+  const isVideo = src.endsWith(".mp4") || src.endsWith(".webm");
+
+  return (
+    <ThumbDiv>
+      {isVideo ? (
+        <video
+          muted
+          autoPlay
+          loop
+          ref={videoRef}
+          preload="metadata"
+          style={contentElemenetStyle}
+        >
+          <source
+            src={src}
+            type={src.endsWith(".mp4") ? "video/mp4" : "video/webm"}
+          />
+        </video>
+      ) : (
+        <img src={src} alt={`Image thumbnail: "${src}"`} style={contentElemenetStyle} />
+      )}
+    </ThumbDiv>
   );
 }
 
