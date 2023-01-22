@@ -17,7 +17,7 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
   return (
     <Section color={data.color}>
       <Container
-        className={`prose prose-lg ${
+        className={`prose prose-lg px-0 ${
           data.color === "primary" ? `prose-primary` : `dark:prose-dark`
         }`}
         data-tinafield={`${parentField}.body`}

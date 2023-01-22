@@ -243,41 +243,42 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/453739232_white_urban_city_buildings_and_bright_sky_and_industrial_cranes__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_xqzaab.png
         thumbnails:
+          - >-
+            /portfolio-media/video-shorts/bgmafia/Untitled_Made_with_FlexClip_4_jyfnvl.mp4
           - /portfolio-media/video-shorts/bgmafia/StreetMobster_xpqaxe.webm
           - >-
             /portfolio-media/video-shorts/bgmafia/StreetMobster__gagdvi_678539-shorter.mp4
           - >-
             /portfolio-media/images/bigmage/bgmafia/10485536_723581251038888_8065558860218045587_n_trufzn.jpg
-          - /portfolio-media/images/bigmage/bgmafia/6_tizoxp.jpg
         extraThumbnails:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674345916/portfolio-media/images/bigmage/bgmafia/1_go2fxp.jpg
+            /portfolio-media/images/bigmage/bgmafia/1_go2fxp.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674345915/portfolio-media/images/bigmage/bgmafia/5_rvn2tu.jpg
+            /portfolio-media/images/bigmage/bgmafia/5_rvn2tu.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674345913/portfolio-media/images/bigmage/bgmafia/9_rzklft.jpg
+            /portfolio-media/images/bigmage/bgmafia/9_rzklft.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674345912/portfolio-media/images/bigmage/bgmafia/8_ac9v5w.jpg
+            /portfolio-media/images/bigmage/bgmafia/8_ac9v5w.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343842/portfolio-media/images/bigmage/bgmafia/10945469_862727757121954_6102880514757985263_o_ky1cxg.jpg
+            /portfolio-media/images/bigmage/bgmafia/10945469_862727757121954_6102880514757985263_o_ky1cxg.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343844/portfolio-media/images/bigmage/bgmafia/10945797_862727823788614_2990560132894689873_o_vr9ppd.jpg
+            /portfolio-media/images/bigmage/bgmafia/10945797_862727823788614_2990560132894689873_o_vr9ppd.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343839/portfolio-media/images/bigmage/bgmafia/10920098_862727983788598_3731176262284147627_o_prfuaa.jpg
+            /portfolio-media/images/bigmage/bgmafia/10920098_862727983788598_3731176262284147627_o_prfuaa.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343848/portfolio-media/images/bigmage/bgmafia/1146783_862727687121961_5197009244140128999_o_oib4sq.jpg
+            /portfolio-media/images/bigmage/bgmafia/1146783_862727687121961_5197009244140128999_o_oib4sq.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343845/portfolio-media/images/bigmage/bgmafia/10947376_862728320455231_1496540771720717733_o_qtp8hj.jpg
+            /portfolio-media/images/bigmage/bgmafia/10947376_862728320455231_1496540771720717733_o_qtp8hj.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343854/portfolio-media/images/bigmage/bgmafia/6_nold7f.jpg
+            /portfolio-media/images/bigmage/bgmafia/6_nold7f.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343826/portfolio-media/images/bigmage/bgmafia/10269199_862728127121917_8138496010729128369_o_rigvc2.jpg
+            /portfolio-media/images/bigmage/bgmafia/10269199_862728127121917_8138496010729128369_o_rigvc2.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343825/portfolio-media/images/bigmage/bgmafia/1_ysdnpw.jpg
+            /portfolio-media/images/bigmage/bgmafia/1_ysdnpw.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674343849/portfolio-media/images/bigmage/bgmafia/3_clnnh2.jpg
+            /portfolio-media/images/bigmage/bgmafia/3_clnnh2.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674345913/portfolio-media/images/bigmage/bgmafia/7_r3wr6u.jpg
+            /portfolio-media/images/bigmage/bgmafia/7_r3wr6u.jpg
       - abstract: Multiplayer Trading Card Game for the Web
         name: DRIMGAR
         summary: ''
@@ -292,6 +293,13 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/1272092685_tcg_card_game_arena_shop_and_clear_blue_sky__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_hlpgma.png
           - >-
             /portfolio-media/ai-generated-backgrounds/2406655520_tcg_card_game_arena_shop_and_clear_blue_sky__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_jzyuzq.png
+        thumbnails:
+          - >-
+            /portfolio-media/images/independent/ccgw/ccgw-0a_dxm8uz.jpg
+          - >-
+            /portfolio-media/images/independent/ccgw/ccgw-1_t8q5he.jpg
+          - >-
+            /portfolio-media/images/independent/ccgw/ccgw-2_kzbue6.jpg
       - abstract: Multiplayer billiards game for iOS and Android
         name: Hasht
         summary: >
@@ -374,6 +382,18 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/00004-1886296194-Screenshot_from_a_racing_game_on_Monza_track_UHD_super_realistic_cy5ujy.png
           - >-
             /portfolio-media/ai-generated-backgrounds/00010-4053678620-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_h5ydwm.png
+        thumbnails:
+          - /portfolio-media/video-sources/rds-hevc_qtz828.mp4
+          - >-
+            /portfolio-media/images/toptal/simwin-rds/Screenshot_2023-01-22_024643_oxqfol.png
+          - >-
+            /portfolio-media/images/toptal/simwin-rds/Screenshot_2023-01-22_024443_iwsust.png
+          - >-
+            /portfolio-media/images/toptal/simwin-rds/Screenshot_2023-01-22_024443_iwsust.png
+          - >-
+            /portfolio-media/images/toptal/simwin-rds/Screenshot_2023-01-22_024230_w4rhcl.png
+          - >-
+            /portfolio-media/images/toptal/simwin-rds/Screenshot_2023-01-22_024315_rlh3xx.png
       - abstract: Text Role Playing Game Prototype
         name: Text RPG
         summary: |
@@ -395,6 +415,15 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/00036-4144471185-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_rcgyl8.png
           - >-
             /portfolio-media/ai-generated-backgrounds/00018-4055791388-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_tb79ng.png
+        thumbnails:
+          - >-
+            /portfolio-media/images/independent/txtrpg/txtrpg-4_rufbwu.jpg
+          - >-
+            /portfolio-media/images/independent/txtrpg/txtrpg-1_j1tspb.jpg
+          - >-
+            /portfolio-media/images/independent/txtrpg/txtrpg-3_qmrtfh.jpg
+          - >-
+            /portfolio-media/images/independent/txtrpg/txtrpg-2_zxfvdt.jpg
       - abstract: Multiplayer party games on the web.
         name: VEN Games
         summary: >
@@ -418,9 +447,28 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/430395753_Purple_Corporate_website_background_with_a_bunch_of_cartoon_people_partying_pg12u9.png
         thumbnails:
-          - /portfolio-media/video-shorts/vengames/ven_xkqgnh.webm
-          - /portfolio-media/video-shorts/vengames/ven_xkqgnh.webm
-          - /portfolio-media/video-shorts/vengames/ven_xkqgnh.webm
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030558_saiohq.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030608_w4hja8.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030619_a8hc8e.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_031051_wur5zl.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_031001_weluqi.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_031220_cmki07.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030942_tigu6y.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030804_zwhfnn.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030829_ip3hqv.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030742_rfminm.png
+          - >-
+            /portfolio-media/images/toptal/ven-games/Screenshot_2023-01-22_030515_xejo55.png
       - abstract: Music gallery and player app for vinyls
         name: Music Gallery
         summary: >
@@ -435,6 +483,13 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/572651048_music_gallery_vinyls_collection_discs___casual_game_trending_on_artstation_uqg989.png
           - >-
             /portfolio-media/ai-generated-backgrounds/1840260383_vynil_music_live_shop_people_discs__light_gray_bright___casual_game_trending_on_artstation_frybox.png
+        thumbnails:
+          - >-
+            /portfolio-media/images/independent/musicgallery/mgal_hytoag.jpg
+          - >-
+            /portfolio-media/images/independent/musicgallery/1_pnwsxc.jpg
+          - >-
+            /portfolio-media/images/independent/musicgallery/agora.profile_u1hfhj.jpg
       - abstract: Wedding Planner Web App
         name: Wedding Planner
         summary: |
@@ -446,6 +501,15 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/3946500764_bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers__real_photo__trending_on_artstation_h9cilh.png
           - >-
             /portfolio-media/ai-generated-backgrounds/1731705866_bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers__real_photo__trending_on_artstation_htohg3.png
+        thumbnails:
+          - >-
+            /portfolio-media/images/independent/wedding/agora.profile_jqqf2l.jpg
+          - >-
+            /portfolio-media/images/independent/wedding/wcast_otw3u8.jpg
+          - >-
+            /portfolio-media/images/independent/wedding/seating_vzg1zp.jpg
+          - >-
+            /portfolio-media/images/independent/wedding/agora.profile_nlyinz.png
     _template: projects
   - quote: >-
       A good programmer is someone who always looks both ways before crossing a

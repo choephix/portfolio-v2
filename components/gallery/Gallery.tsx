@@ -77,7 +77,7 @@ export const Gallery = (props: GalleryProps) => {
   const backgroundImages = data.backgroundImages || [];
 
   const urlBaseImages =
-    "https://res.cloudinary.com/choephix/image/upload/t_thumbnail-webp-160p";
+    "https://res.cloudinary.com/choephix/image/upload/t_thumbnail-160p";
   const urlBaseVideos =
     "https://res.cloudinary.com/choephix/video/upload/t_thumbnail-low-160p";
   const thumbnails = (data.thumbnails || []).map((thumb) => {
@@ -91,7 +91,7 @@ export const Gallery = (props: GalleryProps) => {
   return (
     <div
       ref={ref}
-      className="gallery w-full relative overflow-hidden m-2"
+      className="gallery w-full relative overflow-hidden"
       style={{
         height: selected ? "75vh" : "320px",
         maxHeight: "800px",
