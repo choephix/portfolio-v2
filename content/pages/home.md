@@ -269,7 +269,7 @@ blocks:
           - /thumbs/independent/fra/fra200x200bot.jpg
           - /thumbs/fra5-hevc.mp4
       - abstract: Browser MMO Game about Gangster Life
-        name: Mafia Saints / BG Mafia
+        name: Mafia Saints & Street Mobster
         summary: ''
         skills: null
         date: 05/2014

@@ -22,9 +22,11 @@ const ThumbDiv = styled.div`
   margin: 20px 12px;
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
-
-  display: inline-block;
   overflow: hidden;
+
+  flex-shrink: 0;
+
+  // display: inline-block;
 `;
 
 type GalleryThumbProps = HTMLAttributes<any> & {

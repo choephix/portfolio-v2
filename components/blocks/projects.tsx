@@ -81,14 +81,14 @@ export const projectsBlockSchema: Template = {
           return {
             label: `⭐ ${item?.name}`,
             // style: {
-              // // color: "white",
-              // backgroundImage: `url(${item?.backgroundImages?.[0]})`,
-              // backgroundSize: `cover`,
-              // backgroundPosition: `center`,
-              // // height: "64px",
-              // backgroundColor: `#FFFD`,
-              // backgroundBlendMosde: `screen`,
-              // userSelect: "none",
+            // // color: "white",
+            // backgroundImage: `url(${item?.backgroundImages?.[0]})`,
+            // backgroundSize: `cover`,
+            // backgroundPosition: `center`,
+            // // height: "64px",
+            // backgroundColor: `#FFFD`,
+            // backgroundBlendMosde: `screen`,
+            // userSelect: "none",
             // },
           };
         },
@@ -120,6 +120,34 @@ export const projectsBlockSchema: Template = {
           type: "string",
           name: "date",
           label: "Rough Date",
+        },
+        {
+          type: "object",
+          name: "links",
+          label: "Links",
+          list: true,
+          fields: [
+            {
+              type: "string",
+              name: "name",
+              label: "Name",
+              isTitle: true,
+              required: true,
+              description: "How the link will be displayed",
+              options: [{ label: "Website", value: "website" }],
+            },
+            {
+              type: "string",
+              name: "url",
+              label: "URL",
+              required: true,
+              description: "Must be a valid URL",
+              ui: {
+                component: "url",
+                visualSelector: true,
+              },
+            },
+          ],
         },
         {
           type: "string",
