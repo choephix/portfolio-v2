@@ -67,7 +67,7 @@ export const Gallery = (props: GalleryProps) => {
   //   const handleResize = () => setWidth(ref.current?.offsetWidth || 0);
   //   handleResize();
   //   window.addEventListener("resize", handleResize);
-  //   return () => window.removeEventListener("resize", handleResize);
+  //   return () => window.removeEventListener("resize", handleResize);`
   // }, [!!ref.current]);
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
@@ -75,17 +75,16 @@ export const Gallery = (props: GalleryProps) => {
   if (!data) return <div>no data</div>;
 
   const backgroundImages = data.backgroundImages || [];
-  const thumbnailImages = data.thumbnailImages || [];
 
-  if (thumbnailImages.length < 1) {
-    thumbnailImages.push(
-      `https://picsum.photos/seed/${Math.random()}/400/300`,
-      `https://picsum.photos/seed/${Math.random()}/200/300`,
-      `https://picsum.photos/seed/${Math.random()}/400/300`,
-      `https://picsum.photos/seed/${Math.random()}/400/300`,
-      `https://picsum.photos/seed/${Math.random()}/500/300`
-    );
-  }
+  const urlBaseImages =
+    "https://res.cloudinary.com/choephix/image/upload/t_thumbnail-webp-160p";
+  const urlBaseVideos =
+    "https://res.cloudinary.com/choephix/video/upload/t_thumbnail-low-160p";
+  const thumbnails = (data.thumbnails || []).map((thumb) => {
+    const isVideo = thumb.endsWith(".mp4") || thumb.endsWith(".webm");
+    const url = isVideo ? urlBaseVideos + thumb : urlBaseImages + thumb;
+    return url;
+  });
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
@@ -120,7 +119,7 @@ export const Gallery = (props: GalleryProps) => {
       <GalleryThumbsSlider
         className="absolute bottom-0 left-0 right-0"
         data-tinafield="thumbnailImages"
-        images={thumbnailImages}
+        images={thumbnails}
       />
 
       <div className="absolute top-0 left-0 right-0">

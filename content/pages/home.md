@@ -26,22 +26,39 @@ blocks:
   - body: ''
     color: tint
     projects:
-      - abstract: JUST A TEST
-        name: JUST A TEST
-        summary: |
-          JUST A TEST
+      - abstract: Strategy browser game with trains on the blockchain
+        name: Train of the Century
+        summary: >
+          Browser game where you can own and trade trains, parts and stations
+          represented by NFTs on the WAX blockchain.
+        skills: >-
+          PixiJS, JavaScript, TypeScript, Blockchain, EOSIO, NFT, Firebase,
+          GSAP, Airtable, Sentry, Github Actions, Node.js, WebGL, GLSL, Webpack,
+          Firebase, Firebase Authentication, Firebase Hosting, Postman,
+          Serverless, D3.js, Ethers.js, Web3.js
+        date: 09/2021
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674257058/cld-sample.jpg
-        thumbnailImages:
+            /portfolio-media/ai-generated-backgrounds/00013-3954672618-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_bks7xo.png
           - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/samples/elephants.mp4
+            /portfolio-media/ai-generated-backgrounds/00012-3954672617-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_tybkyt.png
           - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/samples/sea-turtle.mp4
+            /portfolio-media/ai-generated-backgrounds/00029-185727628-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_h31i5e.png
           - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/recipes/user_video.mp4
+            /portfolio-media/ai-generated-backgrounds/00031-2728233245-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_c3xk0j.png
           - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/samples/cld-sample-video.mp4
+            /portfolio-media/ai-generated-backgrounds/00032-1578276195-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_p9ek8e.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00052-3279451176-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_zei6ip.png
+        thumbnails:
+          - /portfolio-media/video-shorts/trainofthecentury/toc-bg-1.mp4
+          - /portfolio-media/video-shorts/trainofthecentury/toc-nfts_kz6hk8.mp4
+          - /portfolio-media/video-shorts/trainofthecentury/toc-npc.mp4
+          - /portfolio-media/video-shorts/trainofthecentury/toc-upgrades.mp4
+          - /portfolio-media/video-shorts/trainofthecentury/toc-story.mp4
+          - >-
+            /portfolio-media/video-shorts/trainofthecentury/toc-stations_qovnvj.mp4
+          - /portfolio-media/video-shorts/trainofthecentury/toc-old.mp4
       - abstract: Slot games SDK for online casino
         name: 7Mojos v2 Slots / Infinite Wilds
         summary: >
@@ -51,37 +68,25 @@ blocks:
         date: 07/2020
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260741/Portfolio/AI%20Generated%20Backgrounds/1566857677_Night_city_landscape__dark_purple_blue_teal_gold__night_sky__80s_album_cover__neon_grid_g5jdht.png
+            /portfolio-media/ai-generated-backgrounds/00059-4182401764-Night_city_landscape_dark_purple_blue_teal_gold_night_sky_80s_album_art_neon_grid_iofuy7.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260750/Portfolio/AI%20Generated%20Backgrounds/53200573_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_wn5rch.png
+            /portfolio-media/ai-generated-backgrounds/1566857677_Night_city_landscape__dark_purple_blue_teal_gold__night_sky__80s_album_cover__neon_grid_g5jdht.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260746/Portfolio/AI%20Generated%20Backgrounds/403625638_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_yy3sxm.png
+            /portfolio-media/ai-generated-backgrounds/528084762_Night_city_landscape__dark_purple_night_sky__synthwave__neon_grid_jm4j45.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260881/Portfolio/AI%20Generated%20Backgrounds/00060-4182401765-Night_city_landscape_dark_purple_blue_teal_gold_night_sky_80s_album_art_neon_grid_vmq19y.png
+            /portfolio-media/ai-generated-backgrounds/53200573_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_wn5rch.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260751/Portfolio/AI%20Generated%20Backgrounds/2606616713_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_nim1bv.png
+            /portfolio-media/ai-generated-backgrounds/2265213491_Night_city_landscape__dark_purple_blue_teal_gold__night_sky__80s_album_cover__neon_grid_rasphz.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260741/Portfolio/AI%20Generated%20Backgrounds/2265213491_Night_city_landscape__dark_purple_blue_teal_gold__night_sky__80s_album_cover__neon_grid_rasphz.png
+            /portfolio-media/ai-generated-backgrounds/403625638_Night_city_landscape__dark_purple_blue_teal_gold_night_sky__80s_album_art__neon_grid_yy3sxm.png
           - >-
-            /uploads/backdrops/4148135450_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-          - >-
-            /uploads/backdrops/3319480819_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-          - >-
-            /uploads/backdrops/3182224512_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-          - >-
-            /uploads/backdrops/2141036647_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-          - >-
-            /uploads/backdrops/2962671468_Dark_purple_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-          - >-
-            /uploads/backdrops/622135342_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-          - >-
-            /uploads/backdrops/309075810_Dark_black_80s_background__vaporwave__synthwave__trending_on_artstation__neon.png
-        thumbnailImages:
-          - /thumbs/7mojos/InfiniteWilds.mp4
-          - /thumbs/7mojos/InfiniteWilds2.mp4
-          - /thumbs/7mojos/InfiniteWilds3.webm
-          - /thumbs/7mojos/InfiniteWilds4.mp4
-          - /thumbs/7mojos/InfiniteWilds5.mp4
+            /portfolio-media/ai-generated-backgrounds/00057-4182401762-Night_city_landscape_dark_purple_blue_teal_gold_night_sky_80s_album_art_neon_grid_y7gjlw.png
+        thumbnails:
+          - /portfolio-media/video-shorts/7mojos/InfiniteWilds_htftzm.webm
+          - /portfolio-media/video-shorts/7mojos/InfiniteWilds5_oq6guy.webm
+          - /portfolio-media/video-shorts/7mojos/InfiniteWilds4_uk5gmx.webm
+          - /portfolio-media/video-shorts/7mojos/InfiniteWilds3_zuchal.webm
+          - /portfolio-media/video-shorts/7mojos/InfiniteWilds2_gaft8r.webm
       - abstract: Casual Endless Jumper Game for iOS and Android
         name: Jelly Brain
         summary: |
@@ -90,28 +95,15 @@ blocks:
         date: 7/2015
         backgroundImages:
           - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_2055653219.webp
+            /portfolio-media/ai-generated-backgrounds/2420326938_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_tgj4wf.png
           - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_2538201719.webp
+            /portfolio-media/ai-generated-backgrounds/3636165118_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_pafmyq.png
           - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_and_two_mushrooms_inspired_by_warcraft_hearthstone_casual_game_3726994982.webp
-          - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_2420326938.webp
-          - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_278642940.webp
-          - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_3636165118.webp
-          - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_3818816736.webp
-          - >-
-            /uploads/backdrops/forest_landscape_nature_beautiful_inspired_by_warcraft_hearthstone_casual_game_554369460.webp
-        thumbnailImages:
-          - /thumbs/JellyBrain0.mp4
-          - /thumbs/bigmage/jellybrain/2.jpg
-          - /thumbs/JellyBrain1.mp4
-          - /thumbs/bigmage/jellybrain/jb-27.jpg
-          - /thumbs/JellyBrain2.mp4
-          - /thumbs/bigmage/jellybrain/3.jpg
+            /portfolio-media/ai-generated-backgrounds/554369460_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_fjggyu.png
+        thumbnails:
+          - /portfolio-media/video-shorts/jellybrain/JellyBrain1_kehyih.mp4
+          - /portfolio-media/video-shorts/jellybrain/JellyBrain__eaq88b.webm
+          - /portfolio-media/video-shorts/jellybrain/JellyBrain2.1_qdv3xs.webm
       - abstract: Casual mobile game for iOS and Android
         name: Jungle Treasure
         summary: >
@@ -126,44 +118,38 @@ blocks:
         date: 05/2013
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260895/Portfolio/AI%20Generated%20Backgrounds/00102-3949262487-side-scrolling_game_fantasy_amazon_forest_background_landscape_UHD_volumetric_lighting_8K_blue_sky_ci7gl5.png
+            /portfolio-media/ai-generated-backgrounds/00100-3949262485-side-scrolling_game_fantasy_amazon_forest_background_landscape_UHD_volumetric_lighting_8K_blue_sky_mnf1jj.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1192809013.webp
+            /portfolio-media/ai-generated-backgrounds/00102-3949262487-side-scrolling_game_fantasy_amazon_forest_background_landscape_UHD_volumetric_lighting_8K_blue_sky_ci7gl5.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_1843889771.webp
+            /portfolio-media/ai-generated-backgrounds/00075-518906180-fantasy_amazon_forest_aztec_landscape_bird_view_UHD_volumetric_lighting_8K_sunrise_dytx9k.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2116600594.webp
+            /portfolio-media/ai-generated-backgrounds/00087-1757485137-fantasy_amazon_forest_angry_birds_background_landscape_UHD_volumetric_lighting_8K_blue_sky_ixlic3.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2153709805.webp
+            /portfolio-media/ai-generated-backgrounds/00102-3949262487-side-scrolling_game_fantasy_amazon_forest_background_landscape_UHD_volumetric_lighting_8K_blue_sky_ci7gl5.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2212694810.webp
+            /portfolio-media/ai-generated-backgrounds/00083-1757485133-fantasy_amazon_forest_angry_birds_background_landscape_UHD_volumetric_lighting_8K_blue_sky_i0j3kd.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2451401700.webp
+            /portfolio-media/ai-generated-backgrounds/2569409960_Amazon_jungle_and_river__inspired_by_warcraft_hearthstone__trending_on_artstation_tgorkd.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_2569409960.webp
+            /portfolio-media/ai-generated-backgrounds/4036980665_Amazon_jungle_and_river__inspired_by_warcraft_hearthstone__trending_on_artstation_z0ffsl.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3074067026.webp
+            /portfolio-media/ai-generated-backgrounds/130943844_fantasy_amazon_forest__side_scroller_cartoon_background__landscape__UHD__volumetric_lighting__8K__bl_nrtem4.png
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3266476548.webp
+            /portfolio-media/ai-generated-backgrounds/755606730_fantasy_amazon_magical_forest_jungle__side_scroller_cartoon_background__landscape__UHD__volumetric_l_zh6nft.png
+        thumbnails:
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3317037403.webp
+            /portfolio-media/video-shorts/jungletreasures/JungleTreasure3_oq1yjl.webm
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_3559917118.webp
+            /portfolio-media/video-shorts/jungletreasures/JungleTreasure6_b2aldq.webm
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_4036980665.webp
+            /portfolio-media/video-shorts/jungletreasures/JungleTreasure1_am08op.mp4
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_439762704.webp
+            /portfolio-media/video-shorts/jungletreasures/JungleTreasure4_i2rmfe.mp4
           - >-
-            /uploads/backdrops/amazon_jungle_and_river_inspired_by_warcraft_hearthstone_965793550.webp
-        thumbnailImages:
-          - /thumbs/--jts1-hevc.mp4
-          - /thumbs/JungleTreasure1.mp4
-          - /thumbs/JungleTreasure2.mp4
-          - /thumbs/JungleTreasure3.mp4
-          - /thumbs/JungleTreasure4.mp4
-          - /thumbs/JungleTreasure5.mp4
-          - /thumbs/JungleTreasure6.mp4
-          - /thumbs/bigmage/jungletreasure/jt-7a.jpg
+            /portfolio-media/video-shorts/jungletreasures/JungleTreasure2_mrxiaf.webm
+          - /portfolio-media/video-shorts/jungletreasures/--jts1_dhhrq7.mp4
+          - /portfolio-media/video-shorts/jungletreasures/--jts1_dhhrq7.mp4
       - abstract: Multiplayer brawler game for the Web
         name: Jungle Trouble
         summary: >
@@ -176,23 +162,28 @@ blocks:
         date: 07/2012
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260917/Portfolio/AI%20Generated%20Backgrounds/00078-1268102658-fantasy_amazon_forest_aztec_ruins_landscape_bird_view_UHD_volumetric_lighting_8K_sunrise_djxwkf.png
+            /portfolio-media/ai-generated-backgrounds/00078-1268102658-fantasy_amazon_forest_aztec_ruins_landscape_bird_view_UHD_volumetric_lighting_8K_sunrise_djxwkf.png
           - >-
-            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_2428572425.webp
+            /portfolio-media/ai-generated-backgrounds/2672702333_fantasy_amazon_forest__side_scroller__background__landscape__UHD__volumetric_lighting__8K__blue_sky_d4wyjq.png
           - >-
-            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_3347482481.webp
+            /portfolio-media/ai-generated-backgrounds/3398485458_fantasy_amazon_forest__side_scroller__background__landscape__UHD__volumetric_lighting__8K__blue_sky_t2o0vz.png
           - >-
-            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_3711657078.webp
+            /portfolio-media/ai-generated-backgrounds/00073-518906178-fantasy_amazon_forest_aztec_landscape_bird_view_UHD_volumetric_lighting_8K_sunrise_bjm2km.png
           - >-
-            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_4215736958.webp
+            /portfolio-media/ai-generated-backgrounds/1894724399_fantasy_amazon_forest__side_scroller_cartoon_game__background__landscape__UHD__volumetric_lighting___skt6hz.png
+        thumbnails:
           - >-
-            /uploads/backdrops/amazon_aztec_jungle_and_river_inspired_by_warcraft_hearthstone_904056896.webp
-        thumbnailImages:
-          - /thumbs/bigmage/jungletrouble/jungletrouble2_640.jpg
-          - /thumbs/JungleTrouble1.mp4
-          - /thumbs/bigmage/jungletrouble/3.jpg
-          - /thumbs/JungleTrouble2.mp4
-          - /thumbs/bigmage/jungletrouble/6.jpg
+            /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Arena.mp4
+          - >-
+            /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Characters.mp4
+          - >-
+            /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Tiny%20Gameplay%201.mp4
+          - >-
+            /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Tiny%20Gameplay%202.mp4
+          - >-
+            /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Tiny%20Gameplay%203.mp4
+          - >-
+            /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Title.mp4
       - abstract: Local Multiplayer Game with Sumo-wrestlers
         name: Sumo Battle!
         summary: >
@@ -202,49 +193,30 @@ blocks:
         date: 01/2011
         backgroundImages:
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_47912279.webp
+            /portfolio-media/ai-generated-backgrounds/47912279_orange_rock_island_in_the_water_and_big_ocean_waves__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_omjyez.png
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3664286467.webp
+            /portfolio-media/ai-generated-backgrounds/1249010556_orange_rock_island_in_the_water_and_big_ocean_waves__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_qufmdm.png
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2302694797.webp
+            /portfolio-media/ai-generated-backgrounds/3664286467_orange_rock_island_in_the_water_and_big_ocean_waves__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_tzr4o1.png
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3198145631.webp
+            /portfolio-media/ai-generated-backgrounds/951573216_orange_rocks_in_the_ocean_waves___inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_atasba.png
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_641480197.webp
+            /portfolio-media/ai-generated-backgrounds/2563574179_orange_rock_island_in_the_water_and_big_ocean_waves__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_djjbtk.png
           - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3094194169.webp
+            /portfolio-media/ai-generated-backgrounds/2302694797_orange_rock_island_in_the_water_and_big_ocean_waves__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_pkq8vt.png
+        thumbnails:
           - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_3323516413.webp
+            /portfolio-media/video-shorts/sumobattle/Untitled_Made_with_FlexClip_1_kh5mbg.mp4
           - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_376232026.webp
+            /portfolio-media/video-shorts/sumobattle/Sumo%20Battle%203D%20--%20Local%201.mp4
           - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_951573216.webp
+            /portfolio-media/video-shorts/sumobattle/Sumo%20Battle%203D%20--%20Local%202.mp4
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_112140760.webp
+            /portfolio-media/video-shorts/sumobattle/Sumo%20Battle%203D%20--%20Survival%20Feature.mp4
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1249010556.webp
+            /portfolio-media/video-shorts/sumobattle/Sumo%20Battle%203D%20--%20Sushi%20Feature.mp4
           - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_1696941406.webp
-          - >-
-            /uploads/backdrops/orange_rock_island_in_the_water_and_big_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2563574179.webp
-          - >-
-            /uploads/backdrops/orange_rocks_in_the_ocean_waves_inspired_by_warcraft_hearthstone_casual_game_2017682470.webp
-        thumbnailImages:
-          - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
-            Battle 3D -- Unlockable Skins Feature.mp4
-          - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
-            Battle 3D -- Sushi Feature.mp4
-          - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
-            Battle 3D -- Survival Feature.mp4
-          - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo
-            Battle 3D -- Local 2.mp4
-          - >-
-            https://res.cloudinary.com/choephix/video/upload/t_thumbnail-webm-160p/Portfolio/Shorts/Sumo%20Battle%203D%20--%20Local%201.mp4
-          - /thumbs/independent/sumobattle/sumo0.jpg
+            /portfolio-media/video-shorts/sumobattle/Sumo%20Battle%203D%20--%20Unlockable%20Skins%20Feature.mp4
       - abstract: Flash games for various portals.
         name: Furry Robots Attack! / Scaperide
         summary: ''
@@ -252,22 +224,14 @@ blocks:
         date: 01/2010
         backgroundImages:
           - >-
-            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_1543348911.webp
-          - >-
-            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2413862583.webp
-          - >-
-            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_2951022213.webp
-          - >-
-            /uploads/backdrops/strategy_many_robots_drones_falling_and_crystal_orbs_flying_and_explosions_and_yellow_background_and_godrays_inspired_by_warcraft_hearthstone_rts_casual_game_3889103449.webp
-        thumbnailImages:
-          - /thumbs/fra1.mp4
-          - /thumbs/fra3.mp4
-          - /thumbs/fra6.mp4
-          - /thumbs/independent/fra/fra200x200p.jpg
-          - /thumbs/fra2b-hevc.mp4
-          - /thumbs/fra7-hevc.mp4
-          - /thumbs/independent/fra/fra200x200bot.jpg
-          - /thumbs/fra5-hevc.mp4
+            /portfolio-media/ai-generated-backgrounds/2105143648_Screenshot_from_RTS_real_time_strategy_game__many_robots_fighting_battling_on_orange_sand_desert_bac_eewpa6.png
+        thumbnails:
+          - /portfolio-media/video-shorts/fra/fra2b-hevc_z6fnxa.mp4
+          - /portfolio-media/video-shorts/fra/fra1_hqnxhc.mp4
+          - /portfolio-media/video-shorts/fra/fra7-hevc_hsdtwv.mp4
+          - /portfolio-media/video-shorts/fra/fra5_oc59wf.mp4
+          - /portfolio-media/video-shorts/fra/fra6_tx96em.mp4
+          - /portfolio-media/video-shorts/fra/fra3_rc8o1b.mp4
       - abstract: Browser MMO Game about Gangster Life
         name: Mafia Saints & Street Mobster
         summary: ''
@@ -275,47 +239,45 @@ blocks:
         date: 05/2014
         backgroundImages:
           - >-
-            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_318713895.webp
+            /portfolio-media/ai-generated-backgrounds/729119324_white_urban_city_buildings_and_bright_sky_and_industrial_cranes__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_wnfh4x.png
           - >-
-            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_3652678719.webp
+            /portfolio-media/ai-generated-backgrounds/453739232_white_urban_city_buildings_and_bright_sky_and_industrial_cranes__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_xqzaab.png
+        thumbnails:
+          - /portfolio-media/video-shorts/bgmafia/StreetMobster_xpqaxe.webm
           - >-
-            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_453739232.webp
+            /portfolio-media/video-shorts/bgmafia/StreetMobster__gagdvi_678539-shorter.mp4
           - >-
-            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_63189152.webp
+            /portfolio-media/images/bigmage/bgmafia/10485536_723581251038888_8065558860218045587_n_trufzn.jpg
+          - /portfolio-media/images/bigmage/bgmafia/6_tizoxp.jpg
+        extraThumbnails:
           - >-
-            /uploads/backdrops/white_urban_city_buildings_and_bright_sky_and_industrial_cranes_inspired_by_warcraft_hearthstone_casual_game_729119324.webp
-        thumbnailImages:
-          - /thumbs/StreetMobster1.mp4
-          - /thumbs/StreetMobster2.mp4
-          - /thumbs/bigmage/bgmafia/1.jpg
-          - /thumbs/bigmage/bgmafia/2.jpg
-          - /thumbs/bigmage/bgmafia/3.jpg
-          - /thumbs/bigmage/bgmafia/4.jpg
-          - /thumbs/bigmage/bgmafia/5.jpg
-          - /thumbs/bigmage/bgmafia/6.jpg
-          - /thumbs/bigmage/bgmafia/7.jpg
-          - /thumbs/bigmage/bgmafia/8.jpg
-          - /thumbs/bigmage/bgmafia/9.jpg
-      - abstract: Strategy browser game with trains on the blockchain
-        name: Train of the Century
-        summary: >
-          Browser game where you can own and trade trains, parts and stations
-          represented by NFTs on the WAX blockchain.
-        skills: >-
-          PixiJS, JavaScript, TypeScript, Blockchain, EOSIO, NFT, Firebase,
-          GSAP, Airtable, Sentry, Github Actions, Node.js, WebGL, GLSL, Webpack,
-          Firebase, Firebase Authentication, Firebase Hosting, Postman,
-          Serverless, D3.js, Ethers.js, Web3.js
-        date: 09/2021
-        backgroundImages:
+            https://res.cloudinary.com/choephix/image/upload/v1674345916/portfolio-media/images/bigmage/bgmafia/1_go2fxp.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260969/Portfolio/AI%20Generated%20Backgrounds/00032-1578276195-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_p9ek8e.png
+            https://res.cloudinary.com/choephix/image/upload/v1674345915/portfolio-media/images/bigmage/bgmafia/5_rvn2tu.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260986/Portfolio/AI%20Generated%20Backgrounds/00050-3279451174-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_a8ui4v.png
+            https://res.cloudinary.com/choephix/image/upload/v1674345913/portfolio-media/images/bigmage/bgmafia/9_rzklft.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260955/Portfolio/AI%20Generated%20Backgrounds/00012-3954672617-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_tybkyt.png
+            https://res.cloudinary.com/choephix/image/upload/v1674345912/portfolio-media/images/bigmage/bgmafia/8_ac9v5w.jpg
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260948/Portfolio/AI%20Generated%20Backgrounds/00013-3954672618-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_bks7xo.png
+            https://res.cloudinary.com/choephix/image/upload/v1674343842/portfolio-media/images/bigmage/bgmafia/10945469_862727757121954_6102880514757985263_o_ky1cxg.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343844/portfolio-media/images/bigmage/bgmafia/10945797_862727823788614_2990560132894689873_o_vr9ppd.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343839/portfolio-media/images/bigmage/bgmafia/10920098_862727983788598_3731176262284147627_o_prfuaa.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343848/portfolio-media/images/bigmage/bgmafia/1146783_862727687121961_5197009244140128999_o_oib4sq.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343845/portfolio-media/images/bigmage/bgmafia/10947376_862728320455231_1496540771720717733_o_qtp8hj.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343854/portfolio-media/images/bigmage/bgmafia/6_nold7f.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343826/portfolio-media/images/bigmage/bgmafia/10269199_862728127121917_8138496010729128369_o_rigvc2.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343825/portfolio-media/images/bigmage/bgmafia/1_ysdnpw.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674343849/portfolio-media/images/bigmage/bgmafia/3_clnnh2.jpg
+          - >-
+            https://res.cloudinary.com/choephix/image/upload/v1674345913/portfolio-media/images/bigmage/bgmafia/7_r3wr6u.jpg
       - abstract: Multiplayer Trading Card Game for the Web
         name: DRIMGAR
         summary: ''
@@ -325,21 +287,11 @@ blocks:
         date: 09/2019
         backgroundImages:
           - >-
-            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1272092685.webp
+            /portfolio-media/ai-generated-backgrounds/244723129_tcg_card_game_arena_shop_and_clear_blue_sky__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_v0wvb5.png
           - >-
-            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_1540855742.webp
+            /portfolio-media/ai-generated-backgrounds/1272092685_tcg_card_game_arena_shop_and_clear_blue_sky__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_hlpgma.png
           - >-
-            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2406655520.webp
-          - >-
-            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_244723129.webp
-          - >-
-            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_2856751774.webp
-          - >-
-            /uploads/backdrops/tcg_card_game_arena_shop_and_clear_blue_sky_inspired_by_warcraft_hearthstone_casual_game_3095471410.webp
-        thumbnailImages:
-          - /thumbs/independent/ccgw/ccgw-0a.jpg
-          - /thumbs/independent/ccgw/ccgw-1.jpg
-          - /thumbs/independent/ccgw/ccgw-2.jpg
+            /portfolio-media/ai-generated-backgrounds/2406655520_tcg_card_game_arena_shop_and_clear_blue_sky__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_jzyuzq.png
       - abstract: Multiplayer billiards game for iOS and Android
         name: Hasht
         summary: >
@@ -361,30 +313,21 @@ blocks:
         date: 07/2016
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260708/Portfolio/AI%20Generated%20Backgrounds/2868895862_Billiards_table__night_bar__empty__UHD__4K__saturated_a3yfgc.png
+            /portfolio-media/ai-generated-backgrounds/00068-1004239063-Billiards_table_night_bar_interior_empty_UHD_4K_saturated_led_lights_ygw6q3.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260702/Portfolio/AI%20Generated%20Backgrounds/3381673603_Billiards_table__night_bar_interior__empty__UHD__4K__saturated__led_lights_atzd4z.png
+            /portfolio-media/ai-generated-backgrounds/00067-1004239062-Billiards_table_night_bar_interior_empty_UHD_4K_saturated_led_lights_rkrzfh.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260696/Portfolio/AI%20Generated%20Backgrounds/429619699_Billiards_table__night_bar_interior__empty__UHD__4K__saturated__led_lights_mtkws1.png
+            /portfolio-media/ai-generated-backgrounds/464033357_Billiards_table__night_bar_interior__empty__UHD__4K__saturated_xce2rl.png
           - >-
-            /uploads/backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_4015559387.webp
+            /portfolio-media/ai-generated-backgrounds/2186049546_Billiards_table__night_bar__empty__UHD__4K__saturated_qc52qa.png
           - >-
-            /uploads/backdrops/billiards_club_inspired_by_gta_cover_art_casual_game
-            (1)_2183929294.webp
+            /portfolio-media/ai-generated-backgrounds/2868895862_Billiards_table__night_bar__empty__UHD__4K__saturated_a3yfgc.png
           - >-
-            /uploads/backdrops/night_time_billiards_club_dim_light_digital_fine_art_casual_game_581764122.webp
-        thumbnailImages:
-          - /thumbs/bigmage/hasht/hasht-1.jpg
-          - /thumbs/bigmage/hasht/hasht-2.jpg
-          - /thumbs/bigmage/hasht/hasht-3.jpg
-          - /thumbs/bigmage/hasht/hasht (1).webp
-          - /thumbs/bigmage/hasht/hasht (2).webp
-          - /thumbs/bigmage/hasht/hasht (3).webp
-          - /thumbs/bigmage/hasht/hasht (4).webp
-          - /thumbs/bigmage/hasht/hasht (5).webp
-          - /thumbs/bigmage/hasht/hasht (6).webp
-          - /thumbs/bigmage/hasht/hasht (7).webp
-          - /thumbs/bigmage/hasht/hasht (8).webp
+            /portfolio-media/ai-generated-backgrounds/429619699_Billiards_table__night_bar_interior__empty__UHD__4K__saturated__led_lights_mtkws1.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/4015559387_night_time_billiards_club_dim_light___digital_fine_art__casual_game_trending_on_artstation_s6uyws.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2183929294_billiards_club__inspired_by_gta_cover_art__casual_game_trending_on_artstation_1_jmkdam.png
       - abstract: MMO Browser games about pirates
         name: Lucid Star / PiratiBG
         summary: >
@@ -394,41 +337,27 @@ blocks:
         date: 01/2013
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260619/Portfolio/AI%20Generated%20Backgrounds/3048366687_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_azqvbk.png
+            /portfolio-media/ai-generated-backgrounds/1776237659_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__rzejnu.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260734/Portfolio/AI%20Generated%20Backgrounds/817187828_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__aqb5fm.png
+            /portfolio-media/ai-generated-backgrounds/3048366687_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_azqvbk.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260618/Portfolio/AI%20Generated%20Backgrounds/3930730815_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_ts6wwv.png
+            /portfolio-media/ai-generated-backgrounds/3930730815_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_ts6wwv.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260467/Portfolio/AI%20Generated%20Backgrounds/4031786970_cliff_photo_of_battling_pirate_ships__masterpiece_digital_art__wild_waves__night__colorful__riot_gam_qj2gv6.png
+            /portfolio-media/ai-generated-backgrounds/689564324_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__bqfdpi.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260626/Portfolio/AI%20Generated%20Backgrounds/74637099_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_jq7zmh.png
+            /portfolio-media/ai-generated-backgrounds/1359923435_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_bvvfp3.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260732/Portfolio/AI%20Generated%20Backgrounds/3078493594_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_e50hhw.png
+            /portfolio-media/ai-generated-backgrounds/1018452994_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_qkptwb.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260909/Portfolio/AI%20Generated%20Backgrounds/00069-3676666910-pirate_ships_fighting_digital_art_riot_games_style_fantasy_hyperrealistic_UHD_4K_colorful_saturated_jgmblv.png
+            /portfolio-media/ai-generated-backgrounds/74637099_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_jq7zmh.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260733/Portfolio/AI%20Generated%20Backgrounds/1052153890_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_r7mfiu.png
-        thumbnailImages:
-          - /thumbs/bigmage/piratesarena/1.jpg
-          - /thumbs/bigmage/piratesarena/2.jpg
-          - /thumbs/bigmage/piratesarena/3.jpg
-          - /thumbs/bigmage/piratesarena/4.jpg
-          - /thumbs/bigmage/piratesarena/pirati_640.jpg
-          - /thumbs/bigmage/lucidstar/1.jpg
-          - /thumbs/bigmage/lucidstar/10.jpg
-          - /thumbs/bigmage/lucidstar/11.jpg
-          - /thumbs/bigmage/lucidstar/12.jpg
-          - /thumbs/bigmage/lucidstar/13.jpg
-          - /thumbs/bigmage/lucidstar/2.jpg
-          - /thumbs/bigmage/lucidstar/3.jpg
-          - /thumbs/bigmage/lucidstar/4.jpg
-          - /thumbs/bigmage/lucidstar/5.jpg
-          - /thumbs/bigmage/lucidstar/6.jpg
-          - /thumbs/bigmage/lucidstar/7.jpg
-          - /thumbs/bigmage/lucidstar/8.jpg
-          - /thumbs/bigmage/lucidstar/9.jpg
-          - /thumbs/bigmage/lucidstar/lucid_640.jpg
+            /portfolio-media/ai-generated-backgrounds/1218687716_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__f6pvav.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/4031786970_cliff_photo_of_battling_pirate_ships__masterpiece_digital_art__wild_waves__night__colorful__riot_gam_qj2gv6.png
+        thumbnails:
+          - /portfolio-media/video-shorts/piratibg_bl0otr.mp4
+          - /portfolio-media/video-shorts/piratibg_bl0otr.mp4
+          - /portfolio-media/video-shorts/piratibg_bl0otr.mp4
       - abstract: 3D visualization tool for online races
         name: SimWin RDS Dashboard
         summary: >
@@ -440,11 +369,11 @@ blocks:
         date: 09/2022
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260940/Portfolio/AI%20Generated%20Backgrounds/00008-4053678618-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_pcblbi.png
+            /portfolio-media/ai-generated-backgrounds/00008-4053678618-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_pcblbi.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260937/Portfolio/AI%20Generated%20Backgrounds/00004-1886296194-Screenshot_from_a_racing_game_on_Monza_track_UHD_super_realistic_cy5ujy.png
+            /portfolio-media/ai-generated-backgrounds/00004-1886296194-Screenshot_from_a_racing_game_on_Monza_track_UHD_super_realistic_cy5ujy.png
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260940/Portfolio/AI%20Generated%20Backgrounds/00010-4053678620-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_h5ydwm.png
+            /portfolio-media/ai-generated-backgrounds/00010-4053678620-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_h5ydwm.png
       - abstract: Text Role Playing Game Prototype
         name: Text RPG
         summary: |
@@ -453,12 +382,19 @@ blocks:
         date: 06/2019
         backgroundImages:
           - >-
-            https://res.cloudinary.com/choephix/image/upload/v1674260977/Portfolio/AI%20Generated%20Backgrounds/00036-4144471185-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_rcgyl8.png
-        thumbnailImages:
-          - /thumbs/independent/txtrpg/txtrpg-1.jpg
-          - /thumbs/independent/txtrpg/txtrpg-2.jpg
-          - /thumbs/independent/txtrpg/txtrpg-3.jpg
-          - /thumbs/independent/txtrpg/txtrpg-4.jpg
+            /portfolio-media/ai-generated-backgrounds/00011-619254707-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_guz2fz.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00008-619254704-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_w5qio9.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00004-2039140097-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_gj2gjc.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00015-619254711-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_wjqiya.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00001-2039140094-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_zsnjrq.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00036-4144471185-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_rcgyl8.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00018-4055791388-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_tb79ng.png
       - abstract: Multiplayer party games on the web.
         name: VEN Games
         summary: >
@@ -472,7 +408,19 @@ blocks:
         date: 07/2020
         backgroundImages:
           - >-
-            /uploads/430395753_Purple_Corporate_website_background_with_a_bunch_of_cartoon_people_partying.png
+            /portfolio-media/ai-generated-backgrounds/594235016_Dark_Purple_Corporate_website_background_with_a_bunch_of_creative_cartoon_people_partying__card_game_kguqea.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/882136437_Corporate_website_background_with_a_bunch_of_cartoon_people_partying_cpguzf.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/4016642278_Purple_Corporate_website_background_with_a_bunch_of_cartoon_people_partying_k5n7rn.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2813316757_Corporate_website_background_with_a_bunch_of_cartoon_people_partying_gjfomm.png
+          - >-
+            /portfolio-media/ai-generated-backgrounds/430395753_Purple_Corporate_website_background_with_a_bunch_of_cartoon_people_partying_pg12u9.png
+        thumbnails:
+          - /portfolio-media/video-shorts/vengames/ven_xkqgnh.webm
+          - /portfolio-media/video-shorts/vengames/ven_xkqgnh.webm
+          - /portfolio-media/video-shorts/vengames/ven_xkqgnh.webm
       - abstract: Music gallery and player app for vinyls
         name: Music Gallery
         summary: >
@@ -484,31 +432,9 @@ blocks:
         date: 03/2012
         backgroundImages:
           - >-
-            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_2091760183.webp
+            /portfolio-media/ai-generated-backgrounds/572651048_music_gallery_vinyls_collection_discs___casual_game_trending_on_artstation_uqg989.png
           - >-
-            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_3947593383.webp
-          - >-
-            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_3959715379.webp
-          - >-
-            /uploads/backdrops/music_gallery_vinyls_collection_discs_casual_game_572651048.webp
-          - >-
-            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_1057618330.webp
-          - >-
-            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_157083580.webp
-          - >-
-            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_1840260383.webp
-          - >-
-            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_3908490438.webp
-          - >-
-            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_4142197805.webp
-          - >-
-            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_654623831.webp
-          - >-
-            /uploads/backdrops/vynil_music_live_shop_people_discs_light_gray_bright_casual_game_997368298.webp
-        thumbnailImages:
-          - /thumbs/independent/music/1.jpg
-          - /thumbs/independent/music/agora.profile.jpg
-          - /thumbs/smol/mgal.jpg
+            /portfolio-media/ai-generated-backgrounds/1840260383_vynil_music_live_shop_people_discs__light_gray_bright___casual_game_trending_on_artstation_frybox.png
       - abstract: Wedding Planner Web App
         name: Wedding Planner
         summary: |
@@ -517,20 +443,9 @@ blocks:
         date: 09/2011
         backgroundImages:
           - >-
-            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1141341689.webp
+            /portfolio-media/ai-generated-backgrounds/3946500764_bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers__real_photo__trending_on_artstation_h9cilh.png
           - >-
-            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1731705866.webp
-          - >-
-            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_1974621564.webp
-          - >-
-            /uploads/backdrops/bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers_real_photo_3946500764.webp
-          - >-
-            /uploads/backdrops/bright_wedding_groom_bride_party_room_real_photo_858305003.webp
-        thumbnailImages:
-          - /thumbs/independent/wedding/agora.profile.jpg
-          - /thumbs/independent/wedding/agora.profile.png
-          - /thumbs/smol/seating.jpg
-          - /thumbs/smol/wcast.jpg
+            /portfolio-media/ai-generated-backgrounds/1731705866_bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers__real_photo__trending_on_artstation_htohg3.png
     _template: projects
   - quote: >-
       A good programmer is someone who always looks both ways before crossing a
@@ -544,17 +459,4 @@ gallery:
   - image: /uploads/Slider02.png
   - image: /uploads/unsplash-75EFpyXu3Wg.jpg
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
 

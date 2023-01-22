@@ -54,12 +54,14 @@ export const GalleryBackground = (props: GalleryBackgroundProps) => {
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
-  const backgroundImageUrl = images[index];
+  const backgroundImageUrl =
+    "https://res.cloudinary.com/choephix/image/upload/t_gallery-background-512p" +
+    images[index];
 
   return (
     <GalleryBackgroundDiv style={{ 
       backgroundImage: `url(${backgroundImageUrl})`,
-      filter: `blur(${4 + dist * 32}px)`,
+      filter: `blur(${2 + dist * 32}px)`,
     }} ref={ref}>
       {dist}
     </GalleryBackgroundDiv>
