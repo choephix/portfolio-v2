@@ -251,14 +251,10 @@ blocks:
           - >-
             /portfolio-media/images/bigmage/bgmafia/10485536_723581251038888_8065558860218045587_n_trufzn.avif
         extraThumbnails:
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/1_go2fxp.avif
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/5_rvn2tu.avif
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/9_rzklft.avif
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/8_ac9v5w.avif
+          - /portfolio-media/images/bigmage/bgmafia/1_go2fxp.avif
+          - /portfolio-media/images/bigmage/bgmafia/5_rvn2tu.avif
+          - /portfolio-media/images/bigmage/bgmafia/9_rzklft.avif
+          - /portfolio-media/images/bigmage/bgmafia/8_ac9v5w.avif
           - >-
             /portfolio-media/images/bigmage/bgmafia/10945469_862727757121954_6102880514757985263_o_ky1cxg.avif
           - >-
@@ -269,16 +265,12 @@ blocks:
             /portfolio-media/images/bigmage/bgmafia/1146783_862727687121961_5197009244140128999_o_oib4sq.avif
           - >-
             /portfolio-media/images/bigmage/bgmafia/10947376_862728320455231_1496540771720717733_o_qtp8hj.avif
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/6_nold7f.avif
+          - /portfolio-media/images/bigmage/bgmafia/6_nold7f.avif
           - >-
             /portfolio-media/images/bigmage/bgmafia/10269199_862728127121917_8138496010729128369_o_rigvc2.avif
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/1_ysdnpw.avif
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/3_clnnh2.avif
-          - >-
-            /portfolio-media/images/bigmage/bgmafia/7_r3wr6u.avif
+          - /portfolio-media/images/bigmage/bgmafia/1_ysdnpw.avif
+          - /portfolio-media/images/bigmage/bgmafia/3_clnnh2.avif
+          - /portfolio-media/images/bigmage/bgmafia/7_r3wr6u.avif
       - abstract: Multiplayer Trading Card Game for the Web
         name: DRIMGAR
         summary: ''
@@ -294,12 +286,9 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/2406655520_tcg_card_game_arena_shop_and_clear_blue_sky__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_jzyuzq.avif
         thumbnails:
-          - >-
-            /portfolio-media/images/independent/ccgw/ccgw-0a_dxm8uz.avif
-          - >-
-            /portfolio-media/images/independent/ccgw/ccgw-1_t8q5he.avif
-          - >-
-            /portfolio-media/images/independent/ccgw/ccgw-2_kzbue6.avif
+          - /portfolio-media/images/independent/ccgw/ccgw-0a_dxm8uz.avif
+          - /portfolio-media/images/independent/ccgw/ccgw-1_t8q5he.avif
+          - /portfolio-media/images/independent/ccgw/ccgw-2_kzbue6.avif
       - abstract: Multiplayer billiards game for iOS and Android
         name: Hasht
         summary: >
@@ -336,6 +325,17 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/4015559387_night_time_billiards_club_dim_light___digital_fine_art__casual_game_trending_on_artstation_s6uyws.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/2183929294_billiards_club__inspired_by_gta_cover_art__casual_game_trending_on_artstation_1_jmkdam.avif
+        thumbnails:
+          - /portfolio-media/images/bigmage/hasht/hasht-2_azib1v.avif
+          - /portfolio-media/images/bigmage/hasht/00023_oqadwv.avif
+          - /portfolio-media/images/bigmage/hasht/00024_l8gvyh.avif
+          - /portfolio-media/images/bigmage/hasht/00029_xuxxz9.avif
+          - /portfolio-media/images/bigmage/hasht/00026_qoickg.avif
+          - /portfolio-media/images/bigmage/hasht/hasht-1_oaexhr.avif
+          - /portfolio-media/images/bigmage/hasht/00027_bxu0rs.avif
+          - /portfolio-media/images/bigmage/hasht/hasht-3_fjbrse.avif
+          - /portfolio-media/images/bigmage/hasht/00025_yiocbf.avif
+          - /portfolio-media/images/bigmage/hasht/00028_h455wp.avif
       - abstract: MMO Browser games about pirates
         name: Lucid Star / PiratiBG
         summary: >
@@ -364,8 +364,23 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/4031786970_cliff_photo_of_battling_pirate_ships__masterpiece_digital_art__wild_waves__night__colorful__riot_gam_qj2gv6.avif
         thumbnails:
           - /portfolio-media/video-shorts/piratibg_bl0otr.webm
-          - /portfolio-media/video-shorts/piratibg_bl0otr.webm
-          - /portfolio-media/video-shorts/piratibg_bl0otr.webm
+          - /portfolio-media/images/bigmage/piratibg/3_ge0rgn.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/380310_236358056427879_319468143_n_nmg9mv.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/312583_236357943094557_1340440022_n_nolmiq.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/380312_236358269761191_1912914720_n_z3bqhh.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/340249_265280733535611_936422953_o_kfpkvo.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/374762_236357799761238_1344063941_n_qskpir.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/297605_236357759761242_348807107_n_adgu3d.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/297574_236357873094564_1686508716_n_vjgrso.avif
+          - >-
+            /portfolio-media/images/bigmage/piratibg/301939_236358249761193_1452810325_n_osokj6.avif
       - abstract: 3D visualization tool for online races
         name: SimWin RDS Dashboard
         summary: >
@@ -416,14 +431,10 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/00018-4055791388-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_tb79ng.avif
         thumbnails:
-          - >-
-            /portfolio-media/images/independent/txtrpg/txtrpg-4_rufbwu.avif
-          - >-
-            /portfolio-media/images/independent/txtrpg/txtrpg-1_j1tspb.avif
-          - >-
-            /portfolio-media/images/independent/txtrpg/txtrpg-3_qmrtfh.avif
-          - >-
-            /portfolio-media/images/independent/txtrpg/txtrpg-2_zxfvdt.avif
+          - /portfolio-media/images/independent/txtrpg/txtrpg-4_rufbwu.avif
+          - /portfolio-media/images/independent/txtrpg/txtrpg-1_j1tspb.avif
+          - /portfolio-media/images/independent/txtrpg/txtrpg-3_qmrtfh.avif
+          - /portfolio-media/images/independent/txtrpg/txtrpg-2_zxfvdt.avif
       - abstract: Multiplayer party games on the web.
         name: VEN Games
         summary: >
@@ -484,10 +495,8 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/1840260383_vynil_music_live_shop_people_discs__light_gray_bright___casual_game_trending_on_artstation_frybox.avif
         thumbnails:
-          - >-
-            /portfolio-media/images/independent/musicgallery/mgal_hytoag.avif
-          - >-
-            /portfolio-media/images/independent/musicgallery/1_pnwsxc.avif
+          - /portfolio-media/images/independent/musicgallery/mgal_hytoag.avif
+          - /portfolio-media/images/independent/musicgallery/1_pnwsxc.avif
           - >-
             /portfolio-media/images/independent/musicgallery/agora.profile_u1hfhj.avif
       - abstract: Wedding Planner Web App
@@ -502,14 +511,10 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/1731705866_bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers__real_photo__trending_on_artstation_htohg3.avif
         thumbnails:
-          - >-
-            /portfolio-media/images/independent/wedding/agora.profile_jqqf2l.avif
-          - >-
-            /portfolio-media/images/independent/wedding/wcast_otw3u8.avif
-          - >-
-            /portfolio-media/images/independent/wedding/seating_vzg1zp.avif
-          - >-
-            /portfolio-media/images/independent/wedding/agora.profile_nlyinz.avif
+          - /portfolio-media/images/independent/wedding/agora.profile_jqqf2l.avif
+          - /portfolio-media/images/independent/wedding/wcast_otw3u8.avif
+          - /portfolio-media/images/independent/wedding/seating_vzg1zp.avif
+          - /portfolio-media/images/independent/wedding/agora.profile_nlyinz.avif
     _template: projects
   - quote: >-
       A good programmer is someone who always looks both ways before crossing a
@@ -523,4 +528,5 @@ gallery:
   - image: /uploads/Slider02.avif
   - image: /uploads/unsplash-75EFpyXu3Wg.avif
 ---
+
 
