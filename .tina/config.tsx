@@ -367,38 +367,6 @@ const config = defineStaticConfig({
               testimonialBlockSchema,
             ],
           },
-
-          //// TEST //// EXPERIMENTAL ////
-          {
-            label: "Image Gallery X",
-            name: "gallery",
-            type: "object",
-            list: true,
-            ui: {
-              itemProps: (item) => {
-                const title = item?.image.split("/").pop();
-                // Field values are accessed by title?.<Field name>
-                return {
-                  label: `🖼 ${title}`,
-                  style: {
-                    color: "cyan",
-                    backgroundImage: `url(${item?.image})`,
-                    backgroundSize: `cover`,
-                    backgroundPosition: `center`,
-                    height: "192px",
-                  },
-                };
-              },
-            },
-            fields: [
-              {
-                label: "Image",
-                name: "image",
-                type: "image",
-                required: true,
-              },
-            ],
-          },
         ],
       },
       {

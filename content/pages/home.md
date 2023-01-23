@@ -25,6 +25,9 @@ blocks:
     _template: hero
   - body: ''
     color: tint
+    urlBaseBackgroundImages: 'https://res.cloudinary.com/choephix/image/upload/t_gallery-background-512p'
+    urlBaseThumbnailImages: 'https://res.cloudinary.com/choephix/image/upload/t_thumbnail-160p'
+    urlBaseThumbnailVideos: 'https://res.cloudinary.com/choephix/video/upload/t_thumbnail-low-160p'
     projects:
       - abstract: Strategy browser game with trains on the blockchain
         name: Train of the Century
@@ -511,10 +514,12 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/1731705866_bright_wedding_groom_bride_party_room_light_and_drapes_and_flowers__real_photo__trending_on_artstation_htohg3.avif
         thumbnails:
-          - /portfolio-media/images/independent/wedding/agora.profile_jqqf2l.avif
+          - >-
+            /portfolio-media/images/independent/wedding/agora.profile_jqqf2l.avif
           - /portfolio-media/images/independent/wedding/wcast_otw3u8.avif
           - /portfolio-media/images/independent/wedding/seating_vzg1zp.avif
-          - /portfolio-media/images/independent/wedding/agora.profile_nlyinz.avif
+          - >-
+            /portfolio-media/images/independent/wedding/agora.profile_nlyinz.avif
     _template: projects
   - quote: >-
       A good programmer is someone who always looks both ways before crossing a
@@ -528,5 +533,6 @@ gallery:
   - image: /uploads/Slider02.avif
   - image: /uploads/unsplash-75EFpyXu3Wg.avif
 ---
+
 
 

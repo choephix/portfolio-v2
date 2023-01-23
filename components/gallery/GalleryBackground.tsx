@@ -1,6 +1,6 @@
-import { useWatchReturnValue } from '../../utils/useWatchReturnValue';
-import React, { useState, useEffect, useRef } from 'react';
-import styled from 'styled-components';
+import { useWatchReturnValue } from "../../utils/useWatchReturnValue";
+import React, { useState, useEffect, useRef } from "react";
+import styled from "styled-components";
 
 export type GalleryBackgroundProps = {
   images: string[];
@@ -47,22 +47,23 @@ export const GalleryBackground = (props: GalleryBackgroundProps) => {
     const rect = ref.current.getBoundingClientRect();
     const center = rect.top + rect.height / 2;
     const distance = Math.abs(center - window.innerHeight / 2);
-    
+
     return (distance / (window.innerHeight / 2)) ** 2;
     // return 1 - (distance / (window.innerHeight / 2));
   });
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
-  const backgroundImageUrl =
-    "https://res.cloudinary.com/choephix/image/upload/t_gallery-background-512p" +
-    images[index];
+  const backgroundImageUrl = images[index];
 
   return (
-    <GalleryBackgroundDiv style={{ 
-      backgroundImage: `url(${backgroundImageUrl})`,
-      filter: `blur(${2 + dist * 32}px)`,
-    }} ref={ref}>
+    <GalleryBackgroundDiv
+      style={{
+        backgroundImage: `url(${backgroundImageUrl})`,
+        filter: `blur(${2 + dist * 32}px)`,
+      }}
+      ref={ref}
+    >
       {dist}
     </GalleryBackgroundDiv>
   );

@@ -18,6 +18,10 @@ export type GalleryProps = {
   data: ProjectsData;
   selected?: boolean;
   onClick?: () => void;
+
+  urlBaseBackgroundImages?: string;
+  urlBaseThumbnailImages?: string;
+  urlBaseThumbnailVideos?: string;
 };
 
 const GalleryTitleDiv = styled.h1`
@@ -57,7 +61,14 @@ const GalleryDescrDiv = styled.div`
 /* A React component that is using the useState and useEffect hooks to create a gallery of images that
 will scroll through the images every 3 seconds. */
 export const Gallery = (props: GalleryProps) => {
-  const { data, selected, onClick } = props;
+  const {
+    data,
+    selected,
+    onClick,
+    urlBaseBackgroundImages,
+    urlBaseThumbnailImages,
+    urlBaseThumbnailVideos,
+  } = props;
 
   //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////  //////
 
@@ -74,15 +85,16 @@ export const Gallery = (props: GalleryProps) => {
 
   if (!data) return <div>no data</div>;
 
-  const backgroundImages = data.backgroundImages || [];
-
-  const urlBaseImages =
-    "https://res.cloudinary.com/choephix/image/upload/t_thumbnail-160p";
-  const urlBaseVideos =
-    "https://res.cloudinary.com/choephix/video/upload/t_thumbnail-low-160p";
+  const backgroundImages = (data.backgroundImages || []).map((img) => {
+    const url = urlBaseBackgroundImages + img;
+    return url;
+  });
+  
   const thumbnails = (data.thumbnails || []).map((thumb) => {
     const isVideo = thumb.endsWith(".mp4") || thumb.endsWith(".webm");
-    const url = isVideo ? urlBaseVideos + thumb : urlBaseImages + thumb;
+    const url = isVideo
+      ? urlBaseThumbnailVideos + thumb
+      : urlBaseThumbnailImages + thumb;
     return url;
   });
 

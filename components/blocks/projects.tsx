@@ -39,6 +39,7 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
                 onClick={() =>
                   setSelectedIndex(index === selectedIndex ? -1 : index)
                 }
+                {...data}
               />
             );
           })}
@@ -69,6 +70,21 @@ export const projectsBlockSchema: Template = {
         { label: "Tint", value: "tint" },
         { label: "Primary", value: "primary" },
       ],
+    },
+    {
+      type: "string",
+      name: "urlBaseBackgroundImages",
+      label: "URL base — Background Images",
+    },
+    {
+      type: "string",
+      name: "urlBaseThumbnailImages",
+      label: "URL base — Thumbnail Images",
+    },
+    {
+      type: "string",
+      name: "urlBaseThumbnailVideos",
+      label: "URL base — Thumbnail Videos",
     },
     {
       type: "object",
