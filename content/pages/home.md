@@ -19,7 +19,8 @@ blocks:
         icon: false
         link: /posts
     image:
-      src: /uploads/60178860.avif
+      src: >-
+        https://res.cloudinary.com/demo/image/upload/w_200,h_200,c_fill,r_max/avatar/photo/DSC_8905__qgcptw.jpg
       alt: Quirky developer photo
     color: default
     _template: hero
@@ -152,7 +153,6 @@ blocks:
           - >-
             /portfolio-media/video-shorts/jungletreasures/JungleTreasure2_mrxiaf.webm
           - /portfolio-media/video-shorts/jungletreasures/--jts1_dhhrq7.webm
-          - /portfolio-media/video-shorts/jungletreasures/--jts1_dhhrq7.webm
       - abstract: Multiplayer brawler game for the Web
         name: Jungle Trouble
         summary: >
@@ -238,6 +238,39 @@ blocks:
           - /portfolio-media/video-shorts/fra/fra5_oc59wf.webm
           - /portfolio-media/video-shorts/fra/fra6_tx96em.webm
           - /portfolio-media/video-shorts/fra/fra3_rc8o1b.webm
+      - abstract: Flash games for various portals
+        name: Scaperide
+        platforms: Web
+        backgroundImages:
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2011983110_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__h0mypq.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2023908172_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__ijkjra.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/3044758562_camera_on_street_road__looking_at_city_in_the_distance__street_lamps__dark_teal_tint_lights__night_s_t6thrf.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2333284708_camera_on_street_road__looking_at_city_in_the_distance__street_lamps__dark_teal_tint_lights__night_s_qmzjid.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2109381760_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__vvtder.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2836282173_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__ujkwoz.avif
+        thumbnails:
+          - >-
+            /portfolio-media/video-shorts/scaperide/_scape1-lvl2-play3_vzai29.webm
+          - >-
+            /portfolio-media/video-shorts/scaperide/_scape1-lvl2-play2_x3yyky.webm
+          - /portfolio-media/video-shorts/scaperide/_scape1-intro_w51oiv.webm
+          - /portfolio-media/video-shorts/scaperide/_scape0c_d1tbhx.webm
+          - /portfolio-media/video-shorts/scaperide/_scape1-lvl1a_sviwjx.webm
+          - /portfolio-media/video-shorts/scaperide/_scape1-shell1c_qt1pbk.webm
+          - /portfolio-media/video-shorts/scaperide/_scape1-lvl1b_i43w6v.webm
+          - /portfolio-media/video-shorts/scaperide/_scape1-lvl1c_g5hayk.webm
+          - /portfolio-media/video-shorts/scaperide/_scape1-levels_k7dhvw.webm
+          - >-
+            /portfolio-media/video-shorts/scaperide/_scape1-purchase2_bstntv.webm
+          - /portfolio-media/video-shorts/scaperide/_scape1-chall3_jarjwc.webm
+        extraThumbnails:
+          - /portfolio-media/images/independent/scaperide/scaperide_ie1x61.avif
       - abstract: Browser MMO Game about Gangster Life
         name: Mafia Saints & Street Mobster
         summary: ''
