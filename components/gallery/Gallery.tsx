@@ -25,13 +25,11 @@ export type GalleryProps = {
 };
 
 const GalleryTitleDiv = styled.h1`
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bolder;
   margin: 0px;
-  padding: 0px 24px;
-
   color: #fff;
-  -webkit-text-stroke: 1px black;
+  text-shadow: 0px 0px 6px black, 0px 0px 24px black;
 `;
 
 const GalleryDescrDiv = styled.div`
@@ -49,13 +47,15 @@ const GalleryDescrDiv = styled.div`
   border-radius: 8px;
 
   opacity: 0;
-  transform: translateX(-24px);
+  // transform: translateX(-24px);
   transition: opacity 0.3s linear, transform 0.3s linear;
+  
   // *:hover > * > & {
-  //   opacity: 1;
-  //   transform: translateX(0%);
-  //   transition: opacity 0.2s linear, transform 0.2s linear;
-  // }
+  *.selected & {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: opacity 0.2s linear, transform 0.2s linear;
+  }
 `;
 
 /* A React component that is using the useState and useEffect hooks to create a gallery of images that
@@ -89,7 +89,7 @@ export const Gallery = (props: GalleryProps) => {
     const url = urlBaseBackgroundImages + img;
     return url;
   });
-  
+
   const thumbnails = (data.thumbnails || []).map((thumb) => {
     const isVideo = thumb.endsWith(".mp4") || thumb.endsWith(".webm");
     const url = isVideo
@@ -103,9 +103,9 @@ export const Gallery = (props: GalleryProps) => {
   return (
     <div
       ref={ref}
-      className="gallery w-full relative overflow-hidden"
+      className={`gallery w-full relative overflow-hidden ${selected ? "selected" : ""}`}
       style={{
-        height: selected ? "75vh" : "320px",
+        height: selected ? "75vh" : "360px",
         maxHeight: "800px",
         transition: "height 0.7s linear",
         transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
@@ -134,11 +134,26 @@ export const Gallery = (props: GalleryProps) => {
         images={thumbnails}
       />
 
-      <div className="absolute top-0 left-0 right-0">
+      <div className="absolute top-0 left-0 right-0 m-7">
         {/* <GalleryTitleDiv data-tinafield="name">{data.name}</GalleryTitleDiv> */}
         <GalleryTitleDiv data-tinafield="abstract">
           {data.abstract}
         </GalleryTitleDiv>
+
+        <div>
+          {
+            //// Platforms list, presented as small chips, white text on transparent black
+            data.platforms?.split(",").map((platform) => (
+              <span
+                className="inline-block bg-black bg-opacity-20 rounded-full px-3 py-.25 text-xs font-semibold text-white my-4 mr-2"
+                style={{ boxShadow: "inset 0 0 12px #0004, 0 0 12px #0005" }}
+              >
+                {platform}
+              </span>
+            ))
+          }
+        </div>
+
         {data.summary && (
           <GalleryDescrDiv>
             <TinaMarkdown content={data.summary} />

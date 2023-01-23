@@ -33,7 +33,7 @@ export const ProjectsGallery = (props: ProjectsGalleryProps) => {
           {data.projects.map((project, index) => {
             return (
               <Gallery
-                key={`${index}-${project.name}`}
+                key={`${index}-${project?.name}`}
                 data={project}
                 selected={index === selectedIndex}
                 onClick={() =>
@@ -129,6 +129,11 @@ export const projectsBlockSchema: Template = {
         },
         {
           type: "string",
+          name: "platforms",
+          label: "Platforms",
+        },
+        {
+          type: "string",
           name: "skills",
           label: "Skills",
         },
@@ -171,12 +176,6 @@ export const projectsBlockSchema: Template = {
           label: "Background Images",
           list: true,
         },
-        // {
-        //   type: "string",
-        //   name: "thumbnailImages",
-        //   label: "Thumbnail Images",
-        //   list: true,
-        // },
         {
           type: "string",
           name: "thumbnails",

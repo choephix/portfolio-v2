@@ -19,10 +19,10 @@ const GalleryBackgroundDiv = styled.div`
   // filter: blur(24px);
   // transition: background 1.5s linear, filter 0.5s linear;
 
-  *:hover > & {
-    filter: blur(6px);
-    transition: background 1.5s linear, filter 0.25s linear;
-  }
+  // *:hover > & {
+  //   filter: blur(6px);
+  //   transition: background 1.5s linear, filter 0.25s linear;
+  // }
 
   color: #fff;
   font-size: 24px;
@@ -60,11 +60,10 @@ export const GalleryBackground = (props: GalleryBackgroundProps) => {
     <GalleryBackgroundDiv
       style={{
         backgroundImage: `url(${backgroundImageUrl})`,
-        filter: `blur(${2 + dist * 32}px)`,
+        filter: `blur(${4 + dist * 24}px)`,
       }}
       ref={ref}
     >
-      {dist}
     </GalleryBackgroundDiv>
   );
   // return <GalleryBackgroundDiv style={{ backgroundImage: `url(${backgroundImageUrl})` }} ref={ref}/>;

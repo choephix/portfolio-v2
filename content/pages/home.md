@@ -29,11 +29,12 @@ blocks:
     urlBaseThumbnailImages: 'https://res.cloudinary.com/choephix/image/upload/t_thumbnail-160p'
     urlBaseThumbnailVideos: 'https://res.cloudinary.com/choephix/video/upload/t_thumbnail-low-160p'
     projects:
-      - abstract: Strategy browser game with trains on the blockchain
+      - abstract: Strategy game about time-travelling trains
         name: Train of the Century
         summary: >
           Browser game where you can own and trade trains, parts and stations
           represented by NFTs on the WAX blockchain.
+        platforms: Web
         skills: >-
           PixiJS, JavaScript, TypeScript, Blockchain, EOSIO, NFT, Firebase,
           GSAP, Airtable, Sentry, Github Actions, Node.js, WebGL, GLSL, Webpack,
@@ -42,17 +43,13 @@ blocks:
         date: 09/2021
         backgroundImages:
           - >-
-            /portfolio-media/ai-generated-backgrounds/00013-3954672618-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_bks7xo.avif
+            /portfolio-media/ai-generated-backgrounds/00031-2728233245-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_c3xk0j.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/00012-3954672617-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_tybkyt.avif
           - >-
-            /portfolio-media/ai-generated-backgrounds/00029-185727628-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_h31i5e.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/00031-2728233245-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_c3xk0j.avif
+            /portfolio-media/ai-generated-backgrounds/00013-3954672618-Screenshot_from_strategy_game_about_trains_and_rail_tracks_and_stations_top_view_world_map_stunning_graphics_hyperrealistic_bks7xo.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/00032-1578276195-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_p9ek8e.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/00052-3279451176-Screenshot_from_city_builder_.75_strategy_game_about_tiny_trains_and_rail_tracks_1.1_large_open_fields_of_grass_and_lakes_t_zei6ip.avif
         thumbnails:
           - /portfolio-media/video-shorts/trainofthecentury/toc-bg-1.webm
           - /portfolio-media/video-shorts/trainofthecentury/toc-nfts_kz6hk8.webm
@@ -67,6 +64,7 @@ blocks:
         summary: >
           The first game, as well as project structure, SDK, and tools for the
           asset pipeline of a company's new slot games portfolio.
+        platforms: Web
         skills: 'Node.js, TypeScript, PixiJS, Howler.js, GSAP, Gulp, Electron'
         date: 07/2020
         backgroundImages:
@@ -90,24 +88,25 @@ blocks:
           - /portfolio-media/video-shorts/7mojos/InfiniteWilds4_uk5gmx.webm
           - /portfolio-media/video-shorts/7mojos/InfiniteWilds3_zuchal.webm
           - /portfolio-media/video-shorts/7mojos/InfiniteWilds2_gaft8r.webm
-      - abstract: Casual Endless Jumper Game for iOS and Android
+      - abstract: Casual endless jumper game
         name: Jelly Brain
         summary: |
           Casual Endless Jumper Game for iOS and Android
+        platforms: 'iOS, Android'
         skills: 'Adobe AIR, Actionscript 3.0, Mobile Development, Play Store, Video Ads'
         date: 7/2015
         backgroundImages:
           - >-
-            /portfolio-media/ai-generated-backgrounds/2420326938_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_tgj4wf.avif
+            /portfolio-media/ai-generated-backgrounds/554369460_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_fjggyu.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/3636165118_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_pafmyq.avif
           - >-
-            /portfolio-media/ai-generated-backgrounds/554369460_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_fjggyu.avif
+            /portfolio-media/ai-generated-backgrounds/2420326938_Forest_landscape_nature_beautiful__inspired_by_warcraft_hearthstone__casual_game_trending_on_artstation_tgj4wf.avif
         thumbnails:
           - /portfolio-media/video-shorts/jellybrain/JellyBrain1_kehyih.webm
           - /portfolio-media/video-shorts/jellybrain/JellyBrain__eaq88b.webm
           - /portfolio-media/video-shorts/jellybrain/JellyBrain2.1_qdv3xs.webm
-      - abstract: Casual mobile game for iOS and Android
+      - abstract: Casual asynchronous multiplayer game
         name: Jungle Treasure
         summary: >
           An asynchronous multiplayer game for mobile devices, inspired by Angry
@@ -117,9 +116,18 @@ blocks:
           campaign,
 
           or build their own stages and challenge their friends to beat them.
+        platforms: 'Android, iOS'
         skills: 'Adobe AIR, ActionScript 3.0, Starling, Feathers UI, Design'
         date: 05/2013
         backgroundImages:
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2569409960_Amazon_jungle_and_river__inspired_by_warcraft_hearthstone__trending_on_artstation_tgorkd.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/4036980665_Amazon_jungle_and_river__inspired_by_warcraft_hearthstone__trending_on_artstation_z0ffsl.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/755606730_fantasy_amazon_magical_forest_jungle__side_scroller_cartoon_background__landscape__UHD__volumetric_l_zh6nft.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/130943844_fantasy_amazon_forest__side_scroller_cartoon_background__landscape__UHD__volumetric_lighting__8K__bl_nrtem4.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/00100-3949262485-side-scrolling_game_fantasy_amazon_forest_background_landscape_UHD_volumetric_lighting_8K_blue_sky_mnf1jj.avif
           - >-
@@ -132,14 +140,6 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/00102-3949262487-side-scrolling_game_fantasy_amazon_forest_background_landscape_UHD_volumetric_lighting_8K_blue_sky_ci7gl5.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/00083-1757485133-fantasy_amazon_forest_angry_birds_background_landscape_UHD_volumetric_lighting_8K_blue_sky_i0j3kd.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/2569409960_Amazon_jungle_and_river__inspired_by_warcraft_hearthstone__trending_on_artstation_tgorkd.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/4036980665_Amazon_jungle_and_river__inspired_by_warcraft_hearthstone__trending_on_artstation_z0ffsl.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/130943844_fantasy_amazon_forest__side_scroller_cartoon_background__landscape__UHD__volumetric_lighting__8K__bl_nrtem4.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/755606730_fantasy_amazon_magical_forest_jungle__side_scroller_cartoon_background__landscape__UHD__volumetric_l_zh6nft.avif
         thumbnails:
           - >-
             /portfolio-media/video-shorts/jungletreasures/JungleTreasure3_oq1yjl.webm
@@ -161,6 +161,7 @@ blocks:
           abilities to push each other off the platform without themselves
           falling off. Features four different animal characters to choose from,
           and an art style that is both stunning and hilarious.
+        platforms: Web
         skills: 'ActionScript 3.0, Flash Web, Away 3D, Game Design'
         date: 07/2012
         backgroundImages:
@@ -187,11 +188,12 @@ blocks:
             /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Tiny%20Gameplay%203.webm
           - >-
             /portfolio-media/video-shorts/jungletrouble/Jungle%20Trouble%20--%20Title.webm
-      - abstract: Local Multiplayer Game with Sumo-wrestlers
+      - abstract: Local multiplayer game with sumo-wrestlers
         name: Sumo Battle!
         summary: >
           Local multiplayer game, where players play elimination matches with
           sumo-wrestlers controlled with only one button.
+        platforms: 'Desktop, Mobile'
         skills: 'Unity, C#, .NET, 3Ds Max, Photoshop'
         date: 01/2011
         backgroundImages:
@@ -223,6 +225,7 @@ blocks:
       - abstract: Flash games for various portals.
         name: Furry Robots Attack! / Scaperide
         summary: ''
+        platforms: Web
         skills: 'Flash IDE, ActionScript 3.0, Vector Graphics, Vector Animation, Design'
         date: 01/2010
         backgroundImages:
@@ -238,6 +241,7 @@ blocks:
       - abstract: Browser MMO Game about Gangster Life
         name: Mafia Saints & Street Mobster
         summary: ''
+        platforms: Web
         skills: null
         date: 05/2014
         backgroundImages:
@@ -277,6 +281,7 @@ blocks:
       - abstract: Multiplayer Trading Card Game for the Web
         name: DRIMGAR
         summary: ''
+        platforms: Web
         skills: >-
           React, API, Firebase, Node.js, Websockets, Github API, Stable
           Diffusion
@@ -306,6 +311,7 @@ blocks:
           Balls rendered within a 2D environment using custom shader with
           spherical projection to simulate realistic 3D balls with perfect
           rotation.
+        platforms: 'Android, iOS'
         skills: >-
           Flash, Actionscript, Box2D,OpenGL, iOS, Android, Photoshop,
           Multiplayer, PlayerIO, Push Notifications, In-App Purchases, Facebook
@@ -313,21 +319,13 @@ blocks:
         date: 07/2016
         backgroundImages:
           - >-
-            /portfolio-media/ai-generated-backgrounds/00068-1004239063-Billiards_table_night_bar_interior_empty_UHD_4K_saturated_led_lights_ygw6q3.avif
+            /portfolio-media/ai-generated-backgrounds/2868895862_Billiards_table__night_bar__empty__UHD__4K__saturated_a3yfgc.avif
           - >-
-            /portfolio-media/ai-generated-backgrounds/00067-1004239062-Billiards_table_night_bar_interior_empty_UHD_4K_saturated_led_lights_rkrzfh.avif
+            /portfolio-media/ai-generated-backgrounds/2183929294_billiards_club__inspired_by_gta_cover_art__casual_game_trending_on_artstation_1_jmkdam.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/464033357_Billiards_table__night_bar_interior__empty__UHD__4K__saturated_xce2rl.avif
           - >-
-            /portfolio-media/ai-generated-backgrounds/2186049546_Billiards_table__night_bar__empty__UHD__4K__saturated_qc52qa.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/2868895862_Billiards_table__night_bar__empty__UHD__4K__saturated_a3yfgc.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/429619699_Billiards_table__night_bar_interior__empty__UHD__4K__saturated__led_lights_mtkws1.avif
-          - >-
             /portfolio-media/ai-generated-backgrounds/4015559387_night_time_billiards_club_dim_light___digital_fine_art__casual_game_trending_on_artstation_s6uyws.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/2183929294_billiards_club__inspired_by_gta_cover_art__casual_game_trending_on_artstation_1_jmkdam.avif
         thumbnails:
           - /portfolio-media/images/bigmage/hasht/hasht-2_azib1v.avif
           - /portfolio-media/images/bigmage/hasht/00023_oqadwv.avif
@@ -344,27 +342,16 @@ blocks:
         summary: >
           Massively Multiplayer Online Games in the browser about pirates
           fighting in fictional oceans and a subsequent re-skin in space.
+        platforms: Web
         skills: null
         date: 01/2013
         backgroundImages:
           - >-
-            /portfolio-media/ai-generated-backgrounds/1776237659_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__rzejnu.avif
-          - >-
             /portfolio-media/ai-generated-backgrounds/3048366687_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_azqvbk.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/3930730815_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_ts6wwv.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/689564324_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__bqfdpi.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/1359923435_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_bvvfp3.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/1018452994_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_qkptwb.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/74637099_pirate_ships_fighting__digital_art__riot_games_style__fantasy__hyperrealistic__UHD__4K__colorful__sa_jq7zmh.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/1218687716_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__f6pvav.avif
           - >-
-            /portfolio-media/ai-generated-backgrounds/4031786970_cliff_photo_of_battling_pirate_ships__masterpiece_digital_art__wild_waves__night__colorful__riot_gam_qj2gv6.avif
+            /portfolio-media/ai-generated-backgrounds/689564324_Screenshot_from_an_open_sea_strategy_game__top_view__pirate_ships_fighting__digital_art__riot_games__bqfdpi.avif
         thumbnails:
           - /portfolio-media/video-shorts/piratibg_bl0otr.webm
           - /portfolio-media/images/bigmage/piratibg/3_ge0rgn.avif
@@ -389,6 +376,7 @@ blocks:
         summary: >
           A dashboard for inspecting scene and telemetry data from popular
           online racing game
+        platforms: Web
         skills: >-
           Typescript, React, MUI, Threejs, Recharts, Sentry, Jira, Node.js, AWS,
           Figma
@@ -397,9 +385,9 @@ blocks:
           - >-
             /portfolio-media/ai-generated-backgrounds/00008-4053678618-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_pcblbi.avif
           - >-
-            /portfolio-media/ai-generated-backgrounds/00004-1886296194-Screenshot_from_a_racing_game_on_Monza_track_UHD_super_realistic_cy5ujy.avif
-          - >-
             /portfolio-media/ai-generated-backgrounds/00010-4053678620-Screenshot_from_a_racing_game_on_Monza_track_UHD_slightly_colorful_h5ydwm.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00004-1886296194-Screenshot_from_a_racing_game_on_Monza_track_UHD_super_realistic_cy5ujy.avif
         thumbnails:
           - /portfolio-media/video-sources/rds-hevc_qtz828.webm
           - >-
@@ -416,9 +404,12 @@ blocks:
         name: Text RPG
         summary: |
           Text Role Playing Game Prototype
+        platforms: Web
         skills: 'Angular, TypeScript, Github API, Firebase'
         date: 06/2019
         backgroundImages:
+          - >-
+            /portfolio-media/ai-generated-backgrounds/00018-4055791388-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_tb79ng.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/00011-619254707-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_guz2fz.avif
           - >-
@@ -427,12 +418,6 @@ blocks:
             /portfolio-media/ai-generated-backgrounds/00004-2039140097-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_gj2gjc.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/00015-619254711-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_wjqiya.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/00001-2039140094-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_zsnjrq.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/00036-4144471185-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark_stone_desk_hyperrealistic_mediev_rcgyl8.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/00018-4055791388-A_lot_of_scattered_parchment_papers_with_writing_and_symbols_and_paragraphs_on_them_on_a_dark-blue_stone_desk_hyperrealistic_m_tb79ng.avif
         thumbnails:
           - /portfolio-media/images/independent/txtrpg/txtrpg-4_rufbwu.avif
           - /portfolio-media/images/independent/txtrpg/txtrpg-1_j1tspb.avif
@@ -445,6 +430,7 @@ blocks:
 
           Written in React + Typescript, utilizing Firebase Realtime Database
           for realtime multiplayer.
+        platforms: Web
         skills: >-
           Lerna, Typescript, React, Firebase, Firebase Firestore, Firebase
           Realtime Database, Firebase Functions, Figma
@@ -490,6 +476,7 @@ blocks:
           Actionscript 3.0
 
           Features mp3 streaming, playlists, async image loading.
+        platforms: Web
         skills: 'ActionScript 3.0, Flash IDE, Design'
         date: 03/2012
         backgroundImages:
@@ -506,6 +493,7 @@ blocks:
         name: Wedding Planner
         summary: |
           Wedding Planner Web App
+        platforms: Web
         skills: 'ActionScript 3.0, Flash IDE, Design'
         date: 09/2011
         backgroundImages:
@@ -533,6 +521,7 @@ gallery:
   - image: /uploads/Slider02.avif
   - image: /uploads/unsplash-75EFpyXu3Wg.avif
 ---
+
 
 
 
