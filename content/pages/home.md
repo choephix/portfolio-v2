@@ -20,7 +20,7 @@ blocks:
         link: /posts
     image:
       src: >-
-        https://res.cloudinary.com/demo/image/upload/w_200,h_200,c_fill,r_max/avatar/photo/DSC_8905__qgcptw.jpg
+        https://res.cloudinary.com/choephix/image/upload/w_200,h_200,c_fill,r_max/avatar/photo/DSC_8905__qgcptw.webp
       alt: Quirky developer photo
     color: default
     _template: hero
@@ -222,8 +222,8 @@ blocks:
             /portfolio-media/video-shorts/sumobattle/Sumo%20Battle%203D%20--%20Sushi%20Feature.webm
           - >-
             /portfolio-media/video-shorts/sumobattle/Sumo%20Battle%203D%20--%20Unlockable%20Skins%20Feature.webm
-      - abstract: Flash games for various portals.
-        name: Furry Robots Attack! / Scaperide
+      - abstract: Flash games for various portals
+        name: Furry Robots Attack!
         summary: ''
         platforms: Web
         skills: 'Flash IDE, ActionScript 3.0, Vector Graphics, Vector Animation, Design'
@@ -240,20 +240,21 @@ blocks:
           - /portfolio-media/video-shorts/fra/fra3_rc8o1b.webm
       - abstract: Flash games for various portals
         name: Scaperide
+        summary: ''
         platforms: Web
         backgroundImages:
           - >-
-            /portfolio-media/ai-generated-backgrounds/2011983110_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__h0mypq.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/2023908172_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__ijkjra.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/3044758562_camera_on_street_road__looking_at_city_in_the_distance__street_lamps__dark_teal_tint_lights__night_s_t6thrf.avif
-          - >-
-            /portfolio-media/ai-generated-backgrounds/2333284708_camera_on_street_road__looking_at_city_in_the_distance__street_lamps__dark_teal_tint_lights__night_s_qmzjid.avif
+            /portfolio-media/ai-generated-backgrounds/2836282173_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__ujkwoz.avif
           - >-
             /portfolio-media/ai-generated-backgrounds/2109381760_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__vvtder.avif
           - >-
-            /portfolio-media/ai-generated-backgrounds/2836282173_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__ujkwoz.avif
+            /portfolio-media/ai-generated-backgrounds/2333284708_camera_on_street_road__looking_at_city_in_the_distance__street_lamps__dark_teal_tint_lights__night_s_qmzjid.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/3044758562_camera_on_street_road__looking_at_city_in_the_distance__street_lamps__dark_teal_tint_lights__night_s_t6thrf.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2023908172_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__ijkjra.avif
+          - >-
+            /portfolio-media/ai-generated-backgrounds/2011983110_screenshot_from_a_game__first_person_camera_on_street_road__looking_at_city_in_the_distance__street__h0mypq.avif
         thumbnails:
           - >-
             /portfolio-media/video-shorts/scaperide/_scape1-lvl2-play3_vzai29.webm
@@ -554,6 +555,7 @@ gallery:
   - image: /uploads/Slider02.avif
   - image: /uploads/unsplash-75EFpyXu3Wg.avif
 ---
+
 
 
 
